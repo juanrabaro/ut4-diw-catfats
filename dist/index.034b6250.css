@@ -1,15 +1,23 @@
 * {
   box-sizing: border-box;
+  color: #fff;
+}
+
+* button {
+  color: #a3439e;
+  background-color: #b0f092;
+  border-radius: 8px;
 }
 
 body {
   width: 100%;
-  background-color: #b0f092;
+  background-color: #f0b7ed;
   margin: 0;
 }
 
 header {
-  height: 120px;
+  height: 105px;
+  width: 100%;
   background-color: #a3439e;
 }
 
@@ -19,38 +27,43 @@ header nav {
 }
 
 header nav #logo {
-  width: 81px;
+  width: 65px;
   margin: 18px;
 }
 
 header nav #enlacesCabecera {
-  width: 1000px;
+  width: 100%;
+  justify-content: end;
   align-items: center;
-  gap: 10px;
-  margin-left: 1000px;
+  gap: 15px;
+  margin-right: 15px;
   text-decoration: none;
   display: flex;
 }
 
 main #imagenPrincipal {
+  height: 500px;
+  width: 100%;
+  justify-content: center;
   position: relative;
 }
 
-main #imagenPrincipal span {
-  width: 100%;
-}
-
 main #imagenPrincipal #botImgP {
+  background-color: #a3439e;
+  border-radius: 10px;
+  padding: 30px;
+  text-decoration: none;
   position: absolute;
-  top: 200px;
-  left: 500px;
+  top: 44%;
+  left: 44%;
 }
 
 main #imagenPrincipal #imagenP {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  width: 98%;
+  height: 94%;
+  position: absolute;
+  top: 3%;
+  left: 1%;
 }
 
 main #flujoUsuario {
@@ -60,15 +73,16 @@ main #flujoUsuario {
 }
 
 footer {
-  width: 100%;
+  height: 100px;
   background-color: #a3439e;
+}
+
+footer #piePagina {
+  height: 100px;
+  align-items: center;
   gap: 20px;
-  padding-top: 10px;
-  padding-left: 20px;
+  padding-left: 10px;
   display: flex;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
 
 /*# sourceMappingURL=index.034b6250.css.map */

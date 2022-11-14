@@ -6,32 +6,41 @@ $verdeClaro: #B0F092;
 
 * {
     box-sizing: border-box;
+    color: white;
+    
+    button {
+        color: $rosaOscuro;
+        background-color: #B0F092;
+        border-radius: 8px;
+    }
 }
 
 body {
     margin: 0px;
     width: 100%;
-    background-color: $verdeClaro;
+    background-color: $rosaClaro;
 }
 
 header {
     background-color: $rosaOscuro;
-    height: 120px;
+    height: 105px;
+    width: 100%;
 
     nav {
         display: flex;
         color: $verdeClaro;
         
         #logo {
-            width: 81px;
+            width: 65px;
             margin: 18px;
         }
         #enlacesCabecera {
             display: flex;
-            margin-left: 1000px;
             align-items: center;
-            gap: 10px;
-            width: 1000px;
+            justify-content: end;
+            gap: 15px;
+            width: 100%;
+            margin-right: 15px;
             text-decoration: none;
         }
     }
@@ -41,20 +50,25 @@ main {
     
     #imagenPrincipal {
         position: relative;
+        height: 500px;
+        width: 100%;
+        justify-content: center;
         
-        span {
-            width: 100%;
-        }
         #botImgP {
             position: absolute;
-            top: 200px;
-            left: 500px;
+            top: 44%;
+            left: 44%;
+            background-color: #A3439E;
+            padding: 30px;
+            border-radius: 10px;
+            text-decoration: none;
         }
         #imagenP {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 800px;
+            width: 98%;
+            height: 94%;
+            left: 1%;
+            position: absolute;
+            top: 3%;
         }
     }
     
@@ -67,12 +81,13 @@ main {
 
 footer {
     background-color: $rosaOscuro;
-    display: flex;
-    gap: 20px;
-    padding-left: 20px;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    padding-top: 10px;
+    height: 100px;
+
+    #piePagina {
+        height: 100px;
+        display: flex;
+        gap: 20px;
+        padding-left: 10px;
+        align-items: center;
+    }
 }

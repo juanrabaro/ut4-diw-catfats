@@ -1,5 +1,74 @@
-h1 {
-  color: red;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #b0f092;
+  margin: 0;
+}
+
+header {
+  height: 120px;
+  background-color: #a3439e;
+}
+
+header nav {
+  color: #b0f092;
+  display: flex;
+}
+
+header nav #logo {
+  width: 81px;
+  margin: 18px;
+}
+
+header nav #enlacesCabecera {
+  width: 1000px;
+  align-items: center;
+  gap: 10px;
+  margin-left: 1000px;
+  text-decoration: none;
+  display: flex;
+}
+
+main #imagenPrincipal {
+  position: relative;
+}
+
+main #imagenPrincipal span {
+  width: 100%;
+}
+
+main #imagenPrincipal #botImgP {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+main #imagenPrincipal #imagenP {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+main #flujoUsuario {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+footer {
+  width: 100%;
+  background-color: #a3439e;
+  gap: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=index.034b6250.css.map */

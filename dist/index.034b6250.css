@@ -72,6 +72,10 @@ main #flujoUsuario {
   display: flex;
 }
 
+main #flujoUsuario #inicioSesion, main #flujoUsuario #crearCuenta {
+  background-color: #a3439e;
+}
+
 footer {
   height: 100px;
   background-color: #a3439e;

@@ -47,7 +47,6 @@ header {
 }
 
 main {
-    
     #imagenPrincipal {
         position: relative;
         height: 500px;
@@ -71,11 +70,14 @@ main {
             top: 3%;
         }
     }
-    
     #flujoUsuario {
         display: flex;
         justify-content: center;
         gap: 20px;
+
+        #inicioSesion, #crearCuenta {
+            background-color: #A3439E;
+        }
     }
 }
 

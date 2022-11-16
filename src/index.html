@@ -12,11 +12,11 @@
                 <img src="/src/assets/img/logo.png" alt="logo"id="logo">
             </section>
             <section id="enlacesCabecera">
-                <a href="">Generar cat fact</a>
-                <a href="">Wiki cat facts</a>
-                <a href="">Contactar</a>
-                <button>Iniciar sesión</button>
-                <button>Crear cuenta</button>
+                <a href="/src/index.html">Generar cat fact</a>
+                <a href="/src/wiki.html">Wiki cat facts</a>
+                <a href="/src/contacto.html">Contactar</a>
+                <a href="#inicioSesion" id="enlaceInicio">Iniciar sesión</a>
+                <a href="#crearCuenta" id="enlaceCrear">Crear cuenta</a>
             </section>
         </nav>
     </header>
@@ -27,7 +27,7 @@
             <a href="" id="botImgP">GENERAR CAT FACT</a>
         </section>
         <section id="flujoUsuario">
-            <form id="inicioSesion">
+            <form name="inicioSesion" id="inicioSesion">
                 <p>Inicio sesión</p>
                 <fieldset>
                     <label for="inputInicioGmail">Gmail:</label>
@@ -39,13 +39,11 @@
                 </fieldset>
             </form>
 
-            <form id="crearCuenta">
-                <p>Crear cuenta</p>
+            <form name="crearCuenta" id="crearCuenta">
                 <fieldset>
+                    <p>Crear cuenta</p>
                     <label for="inputCrearGmail">Gmail:</label>
                     <input id="inputCrearGmail" type="text">
-                </fieldset>
-                <fieldset>
                     <label for="inputCrearContraseña">Contraseña</label>
                     <input id="inputCrearContraseña" type="text">
                 </fieldset>

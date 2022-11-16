@@ -3,10 +3,12 @@
   color: #fff;
 }
 
-* button {
+* #enlaceInicio, * #enlaceCrear {
   color: #a3439e;
   background-color: #b0f092;
   border-radius: 8px;
+  padding: 10px;
+  text-decoration: none;
 }
 
 body {
@@ -39,6 +41,10 @@ header nav #enlacesCabecera {
   margin-right: 15px;
   text-decoration: none;
   display: flex;
+}
+
+header nav #enlacesCabecera a {
+  text-decoration: none;
 }
 
 main #imagenPrincipal {

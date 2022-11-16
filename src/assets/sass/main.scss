@@ -8,10 +8,12 @@ $verdeClaro: #B0F092;
     box-sizing: border-box;
     color: white;
     
-    button {
+    #enlaceInicio, #enlaceCrear {
         color: $rosaOscuro;
-        background-color: #B0F092;
+        background-color: $verdeClaro;
+        padding: 10px;
         border-radius: 8px;
+        text-decoration: none;
     }
 }
 
@@ -42,6 +44,10 @@ header {
             width: 100%;
             margin-right: 15px;
             text-decoration: none;
+
+            a {
+                text-decoration: none;
+            }
         }
     }
 }

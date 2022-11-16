@@ -1,1 +1,0 @@
-{"mappings":"ACAA","sources":["index.e37f055e.css","src/assets/sass/main.scss"],"sourcesContent":["h1 {\n  color: red;\n}\n\n/*# sourceMappingURL=index.e37f055e.css.map */\n","h1 {\r\n    color: red;\r\n}"],"names":[],"version":3,"file":"index.e37f055e.css.map"}

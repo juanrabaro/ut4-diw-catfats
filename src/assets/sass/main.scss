@@ -59,14 +59,21 @@ main {
         width: 100%;
         justify-content: center;
         
-        #botImgP {
+        #botonGenerar {
             position: absolute;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             top: 44%;
             left: 44%;
             background-color: #A3439E;
             padding: 30px;
             border-radius: 10px;
-            text-decoration: none;
+
+            #botImgP {
+                color: white;
+                text-decoration: none;
+            }
         }
         #imagenP {
             width: 98%;

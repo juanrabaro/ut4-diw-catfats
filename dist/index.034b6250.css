@@ -54,14 +54,21 @@ main #imagenPrincipal {
   position: relative;
 }
 
-main #imagenPrincipal #botImgP {
+main #imagenPrincipal #botonGenerar {
   background-color: #a3439e;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 30px;
-  text-decoration: none;
+  display: block;
   position: absolute;
   top: 44%;
   left: 44%;
+}
+
+main #imagenPrincipal #botonGenerar #botImgP {
+  color: #fff;
+  text-decoration: none;
 }
 
 main #imagenPrincipal #imagenP {

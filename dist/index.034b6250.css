@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+
+* #enlaceInicio, * #enlaceCrear {
+  color: #a3439e;
+  background-color: #b0f092;
+  border-radius: 8px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  background-color: #f0b7ed;
+  margin: 0;
+}
+
+header {
+  height: 105px;
+  width: 100%;
+  background-color: #a3439e;
+}
+
+header nav {
+  color: #b0f092;
+  display: flex;
+}
+
+header nav #logo {
+  width: 65px;
+  margin: 18px;
+}
+
+header nav #enlacesCabecera {
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  display: flex;
+}
+
+header nav #enlacesCabecera a {
+  text-decoration: none;
+}
+
+main #imagenPrincipal {
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+main #imagenPrincipal #botImgP {
+  background-color: #a3439e;
+  border-radius: 10px;
+  padding: 30px;
+  text-decoration: none;
+  position: absolute;
+  top: 44%;
+  left: 44%;
+}
+
+main #imagenPrincipal #imagenP {
+  width: 98%;
+  height: 94%;
+  position: absolute;
+  top: 3%;
+  left: 1%;
+}
+
+main #flujoUsuario {
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+  margin-bottom: 80px;
+  display: flex;
+}
+
+main #flujoUsuario #inicioSesion, main #flujoUsuario #crearCuenta {
+  background-color: #a3439e;
+  border-radius: 20px;
+}
+
+main #flujoUsuario #inicioSesion fieldset, main #flujoUsuario #crearCuenta fieldset {
+  border: 0 solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 100px 50px;
+  display: block;
+}
+
+main #flujoUsuario #inicioSesion fieldset h2, main #flujoUsuario #crearCuenta fieldset h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main #flujoUsuario #inicioSesion fieldset .gmail, main #flujoUsuario #crearCuenta fieldset .gmail {
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+main #flujoUsuario #inicioSesion fieldset .gmail input, main #flujoUsuario #crearCuenta fieldset .gmail input {
+  color: #000;
+  background-color: #f0b7ed;
+  border-radius: 10px;
+}
+
+main #flujoUsuario #inicioSesion fieldset .cuenta, main #flujoUsuario #crearCuenta fieldset .cuenta {
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+main #flujoUsuario #inicioSesion fieldset .cuenta input, main #flujoUsuario #crearCuenta fieldset .cuenta input {
+  color: #000;
+  background-color: #f0b7ed;
+  border-radius: 10px;
+}
+
+main #flujoUsuario #inicioSesion fieldset #botonInicioForm, main #flujoUsuario #inicioSesion fieldset #botonCrearForm, main #flujoUsuario #crearCuenta fieldset #botonInicioForm, main #flujoUsuario #crearCuenta fieldset #botonCrearForm {
+  color: #000;
+  width: 125px;
+  background-color: #b0f092;
+  border-radius: 12px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: block;
+}
+
+footer {
+  height: 100px;
+  background-color: #a3439e;
+}
+
+footer #piePagina {
+  height: 100px;
+  align-items: center;
+  gap: 20px;
+  margin-left: 18px;
+  display: flex;
+}
+
+footer #piePagina #instaFooter, footer #piePagina #gmailFooter {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+footer #piePagina #instaFooter > img {
+  width: 30px;
+  height: 30px;
+}
+
+footer #piePagina #gmailFooter > img {
+  width: 40px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=index.034b6250.css.map */

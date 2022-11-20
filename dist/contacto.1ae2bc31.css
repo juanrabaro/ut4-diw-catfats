@@ -48,7 +48,58 @@ header nav #enlacesCabecera a {
 }
 
 main #contenido {
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-left: 18px;
   display: flex;
+}
+
+main #contenido #formulario {
+  width: 700px;
+  background-color: #a3439e;
+  border-radius: 10px;
+}
+
+main #contenido #formulario fieldset {
+  border: 0 solid #000;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+main #contenido #formulario fieldset input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: -7px;
+}
+
+main #contenido #formulario fieldset #segundoInput {
+  height: 100px;
+}
+
+main #contenido #formulario fieldset button {
+  color: #000;
+  background-color: #b0f092;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 40px;
+  display: block;
+}
+
+main #textoContacto {
+  padding-top: 35px;
+  font-size: 20px;
+}
+
+main #textoContacto p {
+  color: #000;
+}
+
+main #textoContacto li {
+  color: #000;
+  margin-left: 50px;
 }
 
 footer {

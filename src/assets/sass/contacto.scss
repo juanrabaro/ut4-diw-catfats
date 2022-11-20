@@ -53,40 +53,8 @@ header {
 }
 
 main {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-
-    .itemGrid {
-        //background-color: red;
-        text-align: center;
-        //border: 1px solid black;
-        border-radius: 20px;
-        margin: 10px;
-        margin-bottom: 15px;
-        //height: 250px;
-        position: relative;
-
-        img {
-            width: 100%;
-            height: 280px;
-        }
-        p {
-            position: absolute;
-            background-color: $rosaOscuro;
-            //border: 1px solid black;
-            border-radius: 15px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            top: 240px;
-            width: 100%;
-            padding-top: 11px;
-            padding-bottom: 11px;
-        }
+    #contenido {
+        display: flex;
     }
 }
 

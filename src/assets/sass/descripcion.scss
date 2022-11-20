@@ -53,8 +53,30 @@ header {
 }
 
 main {
-    p {
-        color: red;
+    h1 {
+        color: black;
+        text-align: center;
+    }
+    
+    #contenido {
+        display: flex;
+        padding-left: 20%;
+        padding-right: 20%;
+        align-items: center;
+        //justify-content: space-between;
+        //justify-items: stretch;
+        margin-bottom: 80px;
+        margin-top: 40px;
+        gap: 15px;
+
+        img {
+            width: 50%;
+            height: 400px;
+        }
+        p {
+            font-size: 20px;
+            color: black;
+        }
     }
 }
 

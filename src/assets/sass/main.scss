@@ -2,6 +2,8 @@
 $rosaOscuro: #A3439E;
 $rosaClaro: #F0B7ED;
 $verdeClaro: #B0F092;
+$fuenteTitulos: "Fredoka One";
+$fuenteTexto: "Lato:wght@300";
 
 
 * {
@@ -27,6 +29,7 @@ header {
     background-color: $rosaOscuro;
     height: 105px;
     width: 100%;
+    font-family: $fuenteTitulos;
 
     nav {
         display: flex;
@@ -155,6 +158,7 @@ main {
 footer {
     background-color: $rosaOscuro;
     height: 100px;
+    font-family: $fuenteTexto;
 
     #piePagina {
         height: 100px;

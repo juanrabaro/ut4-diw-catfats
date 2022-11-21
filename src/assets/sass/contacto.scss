@@ -62,12 +62,14 @@ main {
         margin-top: 50px;
         margin-bottom: 150px;
         gap: 20px;
+        
 
         #formulario {
             background-color: $rosaOscuro;
             //border: 1px solid black;
-            width: 700px;
+            width: 60%;
             border-radius: 10px;
+            
 
             fieldset {
                 border: 0px solid black;
@@ -93,6 +95,8 @@ main {
                     padding: 6px;
                     padding-left: 40px;
                     padding-right: 40px;
+                    margin-top: 25px;
+                    margin-bottom: 25px;
                 }
             }
         }

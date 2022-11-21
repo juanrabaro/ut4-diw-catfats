@@ -21,6 +21,7 @@ header {
   height: 105px;
   width: 100%;
   background-color: #a3439e;
+  font-family: Fredoka One;
 }
 
 header nav {
@@ -146,6 +147,7 @@ main #flujoUsuario #inicioSesion fieldset #botonInicioForm, main #flujoUsuario #
 footer {
   height: 100px;
   background-color: #a3439e;
+  font-family: "Lato:wght@300";
 }
 
 footer #piePagina {

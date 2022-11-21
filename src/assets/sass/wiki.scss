@@ -63,7 +63,7 @@ main {
 
     .itemGrid {
         //background-color: red;
-        text-align: center;
+        //text-align: center;
         //border: 1px solid black;
         border-radius: 20px;
         margin: 10px;
@@ -71,23 +71,33 @@ main {
         height: 280px;
         position: relative;
 
+        
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             border-radius: 20px;
         }
-        p {
+        a {
+            display: block;
             position: absolute;
-            background-color: $rosaOscuro;
-            //border: 1px solid black;
-            border-radius: 15px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            top: 240px;
             width: 100%;
-            padding-top: 11px;
-            padding-bottom: 11px;
+            height: 100%;
+            top: 0;
+            
+            span {
+                position: absolute;
+                background-color: $rosaOscuro;
+                //border: 1px solid black;
+                border-radius: 15px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                bottom: 0;
+                width: 100%;
+                padding-top: 11px;
+                padding-bottom: 11px;
+                text-align: center;
+            }
         }
     }
 }

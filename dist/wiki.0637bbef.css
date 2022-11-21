@@ -55,7 +55,7 @@ main {
 }
 
 main .itemGrid {
-  text-align: center;
+  height: 280px;
   border-radius: 20px;
   margin: 10px 10px 15px;
   position: relative;
@@ -63,11 +63,22 @@ main .itemGrid {
 
 main .itemGrid img {
   width: 100%;
-  height: 280px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
-main .itemGrid p {
+main .itemGrid a {
   width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+main .itemGrid a span {
+  width: 100%;
+  text-align: center;
   background-color: #a3439e;
   border-radius: 15px;
   margin-top: 0;
@@ -75,7 +86,7 @@ main .itemGrid p {
   padding-top: 11px;
   padding-bottom: 11px;
   position: absolute;
-  top: 240px;
+  bottom: 0;
 }
 
 footer {

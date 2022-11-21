@@ -75,6 +75,8 @@ main #imagenPrincipal #botonGenerar #botImgP {
 main #imagenPrincipal #imagenP {
   width: 98%;
   height: 94%;
+  object-fit: cover;
+  border-radius: 20px;
   position: absolute;
   top: 3%;
   left: 1%;

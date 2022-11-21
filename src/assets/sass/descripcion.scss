@@ -72,6 +72,8 @@ main {
         img {
             width: 50%;
             height: 400px;
+            object-fit: cover;
+            border-radius: 20px;
         }
         p {
             font-size: 20px;

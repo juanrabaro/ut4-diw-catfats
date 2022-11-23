@@ -1,3 +1,33 @@
+footer {
+  height: 100px;
+  background-color: #a3439e;
+}
+
+footer #piePagina {
+  height: 100px;
+  align-items: center;
+  gap: 20px;
+  margin-left: 18px;
+  display: flex;
+}
+
+footer #piePagina #instaFooter, footer #piePagina #gmailFooter {
+  align-items: center;
+  gap: 10px;
+  font-family: Lato;
+  display: flex;
+}
+
+footer #piePagina #instaFooter > img {
+  width: 30px;
+  height: 30px;
+}
+
+footer #piePagina #gmailFooter > img {
+  width: 40px;
+  height: 30px;
+}
+
 * {
   box-sizing: border-box;
   color: #fff;
@@ -88,36 +118,6 @@ main .itemGrid a span {
   padding-bottom: 11px;
   position: absolute;
   bottom: 0;
-}
-
-footer {
-  height: 100px;
-  background-color: #a3439e;
-}
-
-footer #piePagina {
-  height: 100px;
-  align-items: center;
-  gap: 20px;
-  margin-left: 18px;
-  display: flex;
-}
-
-footer #piePagina #instaFooter, footer #piePagina #gmailFooter {
-  align-items: center;
-  gap: 10px;
-  font-family: Lato;
-  display: flex;
-}
-
-footer #piePagina #instaFooter > img {
-  width: 30px;
-  height: 30px;
-}
-
-footer #piePagina #gmailFooter > img {
-  width: 40px;
-  height: 30px;
 }
 
 /*# sourceMappingURL=wiki.0637bbef.css.map */

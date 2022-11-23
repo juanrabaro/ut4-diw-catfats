@@ -1,59 +1,7 @@
-//Variables
-$rosaOscuro: #A3439E;
-$rosaClaro: #F0B7ED;
-$verdeClaro: #B0F092;
-$fuenteTitulos: "Fredoka One";
-$fuenteTexto: "Lato";
-
-
-* {
-    box-sizing: border-box;
-    color: white;
-    
-    #enlaceInicio, #enlaceCrear {
-        color: $rosaOscuro;
-        background-color: $verdeClaro;
-        padding: 10px;
-        border-radius: 8px;
-        text-decoration: none;
-    }
-}
-
-body {
-    margin: 0px;
-    width: 100%;
-    background-color: $rosaClaro;
-}
-
-header {
-    background-color: $rosaOscuro;
-    height: 105px;
-    width: 100%;
-    font-family: $fuenteTitulos;
-
-    nav {
-        display: flex;
-        color: $verdeClaro;
-        
-        #logo {
-            width: 65px;
-            margin: 18px;
-        }
-        #enlacesCabecera {
-            display: flex;
-            align-items: center;
-            justify-content: end;
-            gap: 15px;
-            width: 100%;
-            margin-right: 15px;
-            text-decoration: none;
-
-            a {
-                text-decoration: none;
-            }
-        }
-    }
-}
+@import "_variables.scss";
+@import "_footer.scss";
+@import "_globalYbody.scss";
+@import "_header.scss";
 
 main {
     #imagenPrincipal {
@@ -162,35 +110,5 @@ main {
                 }
             }
         }
-    }
-}
-
-footer {
-    background-color: $rosaOscuro;
-    height: 100px;
-    //font-family: $fuenteTexto;
-
-    #piePagina {
-        height: 100px;
-        display: flex;
-        gap: 20px;
-        margin-left: 18px;
-        align-items: center;
-
-        #instaFooter, #gmailFooter {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            font-family: $fuenteTexto;
-        }
-        #instaFooter > img {
-            width: 30px;
-            height: 30px;
-        }
-        #gmailFooter > img {
-            width: 40px;
-            height: 30px;
-        }
-        
     }
 }

@@ -3,7 +3,7 @@ $rosaOscuro: #A3439E;
 $rosaClaro: #F0B7ED;
 $verdeClaro: #B0F092;
 $fuenteTitulos: "Fredoka One";
-$fuenteTexto: "Lato:wght@300";
+$fuenteTexto: "Lato";
 
 
 * {
@@ -76,6 +76,7 @@ main {
             #botImgP {
                 color: white;
                 text-decoration: none;
+                font-family: $fuenteTitulos;
             }
         }
         #imagenP {
@@ -115,7 +116,13 @@ main {
                 h2 {
                     text-align: center;
                     margin-bottom: 50px;
-                    
+                    font-family: $fuenteTitulos;
+                }
+                label {
+                    font-family: $fuenteTexto;
+                }
+                .labelMargen {
+                    margin-right: 22px;
                 }
                 .gmail {
                     display: flex;
@@ -151,6 +158,7 @@ main {
                     margin-top: 40px;
                     padding: 10px;
                     width: 125px;
+                    font-family: $fuenteTitulos;
                 }
             }
         }
@@ -160,7 +168,7 @@ main {
 footer {
     background-color: $rosaOscuro;
     height: 100px;
-    font-family: $fuenteTexto;
+    //font-family: $fuenteTexto;
 
     #piePagina {
         height: 100px;
@@ -173,6 +181,7 @@ footer {
             display: flex;
             gap: 10px;
             align-items: center;
+            font-family: $fuenteTexto;
         }
         #instaFooter > img {
             width: 30px;

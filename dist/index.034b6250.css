@@ -69,6 +69,7 @@ main #imagenPrincipal #botonGenerar {
 
 main #imagenPrincipal #botonGenerar #botImgP {
   color: #fff;
+  font-family: Fredoka One;
   text-decoration: none;
 }
 
@@ -106,6 +107,15 @@ main #flujoUsuario #inicioSesion fieldset, main #flujoUsuario #crearCuenta field
 main #flujoUsuario #inicioSesion fieldset h2, main #flujoUsuario #crearCuenta fieldset h2 {
   text-align: center;
   margin-bottom: 50px;
+  font-family: Fredoka One;
+}
+
+main #flujoUsuario #inicioSesion fieldset label, main #flujoUsuario #crearCuenta fieldset label {
+  font-family: Lato;
+}
+
+main #flujoUsuario #inicioSesion fieldset .labelMargen, main #flujoUsuario #crearCuenta fieldset .labelMargen {
+  margin-right: 22px;
 }
 
 main #flujoUsuario #inicioSesion fieldset .gmail, main #flujoUsuario #crearCuenta fieldset .gmail {
@@ -143,13 +153,13 @@ main #flujoUsuario #inicioSesion fieldset #botonInicioForm, main #flujoUsuario #
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+  font-family: Fredoka One;
   display: block;
 }
 
 footer {
   height: 100px;
   background-color: #a3439e;
-  font-family: "Lato:wght@300";
 }
 
 footer #piePagina {
@@ -163,6 +173,7 @@ footer #piePagina {
 footer #piePagina #instaFooter, footer #piePagina #gmailFooter {
   align-items: center;
   gap: 10px;
+  font-family: Lato;
   display: flex;
 }
 

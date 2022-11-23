@@ -108,6 +108,7 @@ main {
 footer {
     background-color: $rosaOscuro;
     height: 100px;
+    //font-family: $fuenteTexto;
 
     #piePagina {
         height: 100px;
@@ -120,6 +121,7 @@ footer {
             display: flex;
             gap: 10px;
             align-items: center;
+            font-family: $fuenteTexto;
         }
         #instaFooter > img {
             width: 30px;
@@ -129,5 +131,6 @@ footer {
             width: 40px;
             height: 30px;
         }
+        
     }
 }

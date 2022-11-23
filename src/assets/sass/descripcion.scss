@@ -2,6 +2,8 @@
 $rosaOscuro: #A3439E;
 $rosaClaro: #F0B7ED;
 $verdeClaro: #B0F092;
+$fuenteTitulos: "Fredoka One";
+$fuenteTexto: "Lato";
 
 
 * {
@@ -27,6 +29,7 @@ header {
     background-color: $rosaOscuro;
     height: 105px;
     width: 100%;
+    font-family: $fuenteTitulos;
 
     nav {
         display: flex;
@@ -85,6 +88,7 @@ main {
 footer {
     background-color: $rosaOscuro;
     height: 100px;
+    //font-family: $fuenteTexto;
 
     #piePagina {
         height: 100px;
@@ -97,6 +101,7 @@ footer {
             display: flex;
             gap: 10px;
             align-items: center;
+            font-family: $fuenteTexto;
         }
         #instaFooter > img {
             width: 30px;
@@ -105,6 +110,7 @@ footer {
         #gmailFooter > img {
             width: 40px;
             height: 30px;
-        }    
+        }
+        
     }
 }

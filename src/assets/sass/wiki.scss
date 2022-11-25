@@ -12,6 +12,7 @@ main {
     padding-top: 60px;
     padding-bottom: 40px;
 
+    //div
     .itemGrid {
         //background-color: red;
         //text-align: center;
@@ -37,6 +38,7 @@ main {
             top: 0;
             
             span {
+                font-family: $fuenteTexto;
                 position: absolute;
                 background-color: $rosaOscuro;
                 //border: 1px solid black;

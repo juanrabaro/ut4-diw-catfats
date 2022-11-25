@@ -52,6 +52,7 @@ header {
   width: 100%;
   background-color: #a3439e;
   font-family: Fredoka One;
+  font-size: 18px;
 }
 
 header nav {
@@ -116,6 +117,7 @@ main .itemGrid a span {
   margin-bottom: 0;
   padding-top: 11px;
   padding-bottom: 11px;
+  font-family: Lato;
   position: absolute;
   bottom: 0;
 }

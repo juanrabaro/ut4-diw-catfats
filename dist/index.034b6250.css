@@ -52,6 +52,7 @@ header {
   width: 100%;
   background-color: #a3439e;
   font-family: Fredoka One;
+  font-size: 18px;
 }
 
 header nav {
@@ -86,21 +87,23 @@ main #imagenPrincipal {
 }
 
 main #imagenPrincipal #botonGenerar {
-  background-color: #a3439e;
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px;
+  width: 100%;
   display: block;
   position: absolute;
   top: 44%;
-  left: 44%;
 }
 
 main #imagenPrincipal #botonGenerar #botImgP {
   color: #fff;
+  width: 260px;
+  background-color: #a3439e;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 50px;
   font-family: Fredoka One;
   text-decoration: none;
+  display: block;
 }
 
 main #imagenPrincipal #imagenP {

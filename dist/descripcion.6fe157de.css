@@ -1,3 +1,33 @@
+footer {
+  height: 100px;
+  background-color: #a3439e;
+}
+
+footer #piePagina {
+  height: 100px;
+  align-items: center;
+  gap: 20px;
+  margin-left: 18px;
+  display: flex;
+}
+
+footer #piePagina #instaFooter, footer #piePagina #gmailFooter {
+  align-items: center;
+  gap: 10px;
+  font-family: Lato;
+  display: flex;
+}
+
+footer #piePagina #instaFooter > img {
+  width: 30px;
+  height: 30px;
+}
+
+footer #piePagina #gmailFooter > img {
+  width: 40px;
+  height: 30px;
+}
+
 * {
   box-sizing: border-box;
   color: #fff;
@@ -22,6 +52,7 @@ header {
   width: 100%;
   background-color: #a3439e;
   font-family: Fredoka One;
+  font-size: 18px;
 }
 
 header nav {
@@ -51,6 +82,7 @@ header nav #enlacesCabecera a {
 main h1 {
   color: #000;
   text-align: center;
+  font-family: Fredoka One;
 }
 
 main #contenido {
@@ -72,37 +104,9 @@ main #contenido img {
 
 main #contenido p {
   color: #000;
-  font-size: 20px;
-}
-
-footer {
-  height: 100px;
-  background-color: #a3439e;
-}
-
-footer #piePagina {
-  height: 100px;
-  align-items: center;
-  gap: 20px;
-  margin-left: 18px;
-  display: flex;
-}
-
-footer #piePagina #instaFooter, footer #piePagina #gmailFooter {
-  align-items: center;
-  gap: 10px;
+  width: 400px;
   font-family: Lato;
-  display: flex;
-}
-
-footer #piePagina #instaFooter > img {
-  width: 30px;
-  height: 30px;
-}
-
-footer #piePagina #gmailFooter > img {
-  width: 40px;
-  height: 30px;
+  font-size: 28px;
 }
 
 /*# sourceMappingURL=descripcion.6fe157de.css.map */

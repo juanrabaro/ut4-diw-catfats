@@ -10,21 +10,29 @@ main {
         width: 100%;
         justify-content: center;
         
+        //div
         #botonGenerar {
             position: absolute;
             display: block;
-            margin-left: auto;
-            margin-right: auto;
             top: 44%;
-            left: 44%;
-            background-color: #A3439E;
-            padding: 30px;
-            border-radius: 10px;
+            width: 100%;
 
+            //a
             #botImgP {
                 color: white;
+                //display: block;
                 text-decoration: none;
                 font-family: $fuenteTitulos;
+                width: 260px;
+                display: block;
+                //height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #A3439E;
+                padding: 40px;
+                padding-left: 50px;
+                padding-right: 50px;
+                border-radius: 10px;
             }
         }
         #imagenP {

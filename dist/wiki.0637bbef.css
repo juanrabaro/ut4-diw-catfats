@@ -33,14 +33,6 @@ footer #piePagina #gmailFooter > img {
   color: #fff;
 }
 
-* #enlaceInicio, * #enlaceCrear {
-  color: #a3439e;
-  background-color: #b0f092;
-  border-radius: 8px;
-  padding: 10px;
-  text-decoration: none;
-}
-
 body {
   width: 100%;
   background-color: #f0b7ed;

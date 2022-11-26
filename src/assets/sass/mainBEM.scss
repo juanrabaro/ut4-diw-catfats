@@ -1,0 +1,161 @@
+@import "_variables.scss";
+//@import "_footer.scss";
+@import "_footerBEM.scss";
+@import "_globalYbody.scss";
+//@import "_header.scss";
+@import "_headerBEM.scss";
+
+main {
+    .imagen-principal {
+        position: relative;
+        height: 500px;
+        width: 100%;
+        justify-content: center;
+
+        &__boton-generar {
+            position: absolute;
+            display: block;
+            top: 44%;
+            width: 100%;
+        }
+
+        &__imagen-p {
+            width: 98%;
+            height: 94%;
+            left: 1%;
+            position: absolute;
+            top: 3%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    }
+    .boton-generar {
+        &__bot-img-p {
+            color: white;
+            text-decoration: none;
+            font-family: $fuenteTitulos;
+            width: 260px;
+            display: block;
+            //height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #A3439E;
+            padding: 40px;
+            padding-left: 50px;
+            padding-right: 50px;
+            border-radius: 10px;
+        }
+    }
+
+
+    .flujo-usuario {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 25px;
+        margin-bottom: 80px;
+
+        fieldset {
+            border: 0px solid black;
+            padding-top: 0px;
+            padding-bottom: 50px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 100px;
+            padding-right: 100px;
+            background-color: $rosaOscuro;
+            border-radius: 10px;
+
+            h2 {
+                text-align: center;
+                margin-bottom: 50px;
+                font-family: $fuenteTitulos;
+            }
+            label {
+                font-family: $fuenteTexto;
+            }
+        &__crear-cuenta {
+            background-color: #A3439E;
+            border-radius: 20px;
+        }
+        &__inicio-sesion {
+            background-color: #A3439E;
+            border-radius: 20px;
+        }
+    }
+    .crear-cuenta {
+        &__botonCrearForm {
+            color: black;
+            background-color: $verdeClaro;
+            border-radius: 12px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            padding: 10px;
+            width: 125px;
+            font-family: $fuenteTitulos;
+            font-size: 15px;
+        }
+        &__cuenta {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+    .cuenta {
+        &__input-crear-contraseña {
+            border-radius: 10px;
+            background-color: $rosaClaro;
+            color: black;
+        }
+        &__input-crear-gmail {
+            border-radius: 10px;
+            background-color: $rosaClaro;
+            color: black;
+        }
+        &__label-margen {
+            margin-right: 22px;
+        }
+    }
+
+    .inicio-sesion {
+        &__boton-inicio-form {
+            color: black;
+            background-color: $verdeClaro;
+            border-radius: 12px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            padding: 10px;
+            width: 125px;
+            font-family: $fuenteTitulos;
+            font-size: 15px;
+        }
+        &__gmail {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+    .gmail {
+        &__input-inicio-contraseña {
+            border-radius: 10px;
+            background-color: $rosaClaro;
+            color: black;
+        }
+        &__input-inicio-gmail {
+            border-radius: 10px;
+            background-color: $rosaClaro;
+            color: black;
+        }
+        &__label-margen {
+            margin-right: 22px;
+        }
+    }
+}
+}

@@ -1,0 +1,34 @@
+
+footer {
+    background-color: $rosaOscuro;
+    height: 100px;
+
+    .pie-pagina {
+        height: 100px;
+        display: flex;
+        gap: 20px;
+        margin-left: 18px;
+        align-items: center;
+
+        &__insta-footer {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            font-family: $fuenteTexto;
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+        &__gmail-footer {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            font-family: $fuenteTexto;
+            img {
+                width: 40px;
+                height: 30px;
+            }
+        }
+    }
+}

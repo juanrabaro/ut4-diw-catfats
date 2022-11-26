@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Proyecto parcel</title>
-    <link rel="stylesheet" href="/src/assets/sass/main.scss">
+    <link rel="stylesheet" href="/src/assets/sass/mainBEM.scss">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 
-    <!--<link rel="stylesheet" href="/src/assets/sass/prueba.scss">-->
 </head>
 <body>
     <header>
@@ -28,13 +27,13 @@
     </header>
 
     <main>
-        <section class="imagenPrincipal">
-            <img src="/src/assets/img/imagenPrincipal.png" alt="ImagenPrincipal" class="imagenP">
-            <div class="botonGenerar">    
-                <a href="wiki.html" class="botImgP"><span>GENERAR CAT FACT</span></a>
+        <section class="imagen-principal">
+            <img src="/src/assets/img/imagenPrincipal.png" alt="ImagenPrincipal" class="imagen-principal__imagen-p">
+            <div class="imagen-principal__boton-generar">    
+                <a href="wiki.html" class="boton-generar__bot-img-p"><span>GENERAR CAT FACT</span></a>
             </div>
         </section>
-        <section class="flujoUsuario">
+        <section class="flujo-usuario">
             <!--<form class="pruebaForm">
                 <fieldset>
                     <h2>prueba</h2>
@@ -45,45 +44,45 @@
                 </fieldset>
             </form> -->
 
-            <form name="inicioSesion" class="inicioSesion">
+            <form name="inicioSesion" class="flujo-usuario__inicio-sesion">
                 <fieldset>
                     <h2>Inicio sesión</h2>
-                    <p class="gmail">
+                    <p class="inicio-sesion__gmail">
                         <label for="inputInicioGmail">Gmail:</label>
-                        <input class="inputInicioGmail" type="text">
+                        <input class="gmail__input-inicio-gmail" type="text">
                     </p>
-                    <p class="gmail">
-                        <label class="labelMargen" for="inputInicioContraseña">Contraseña:</label>
-                        <input class="inputInicioContraseña" type="text">
+                    <p class="inicio-sesion__gmail">
+                        <label class="gmail__label-margen" for="inputInicioContraseña">Contraseña:</label>
+                        <input class="gmail__input-inicio-contraseña" type="text">
                     </p>
-                    <button class="botonInicioForm">Iniciar Sesión</button>
+                    <button class="inicio-sesion__boton-inicio-form">Iniciar Sesión</button>
                 </fieldset>
             </form>
 
-            <form name="crearCuenta" class="crearCuenta">
+            <form name="crearCuenta" class="flujo-usuario__crear-cuenta">
                 <fieldset>
                     <h2>Crear cuenta</h2>
-                    <p class="cuenta">
+                    <p class="crear-cuenta__cuenta">
                         <label for="inputCrearGmail">Gmail:</label>
-                        <input class="inputCrearGmail" type="text">
+                        <input class="cuenta__input-crear-gmail" type="text">
                     </p>
-                    <p class="cuenta">
-                        <label class="labelMargen" for="inputCrearContraseña">Contraseña:</label>
-                        <input class="inputCrearContraseña" type="text">
+                    <p class="crear-cuenta__cuenta">
+                        <label class="cuenta__label-margen" for="inputCrearContraseña">Contraseña:</label>
+                        <input class="cuenta__input-crear-contraseña" type="text">
                     </p>
-                    <button class="botonCrearForm">Crear Cuenta</button>
+                    <button class="crear-cuenta__botonCrearForm">Crear Cuenta</button>
                 </fieldset>
             </form>
         </section>
     </main>
 
     <footer>
-        <section class="piePagina">
-            <section class="instaFooter">
+        <section class="pie-pagina">
+            <section class="pie-pagina__insta-footer">
                 <img src="/src/assets/img/🦆 icon _instagram icon_.png" alt="iconoInsta">
                 <p>insta</p>
             </section>
-            <section class="gmailFooter">
+            <section class="pie-pagina__gmail-footer">
                 <img src="/src/assets/img/🦆 icon _google gmail_.png" alt="iconoGmail">
                 <p>gmail</p>
             </section>

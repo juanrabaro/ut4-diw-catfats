@@ -1,0 +1,62 @@
+
+header {
+    background-color: $rosaOscuro;
+    height: 105px;
+    width: 100%;
+    font-family: $fuenteTitulos;
+    font-size: 18px;
+        
+    .navegador {
+        display: flex;
+        color: $verdeClaro;
+
+        a {
+            text-decoration: none;
+        }
+        &__enlaces-cabecera {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 15px;
+            width: 100%;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        &__section-logo {}
+    }
+
+    .section-logo {
+        &__logo {
+            width: 65px;
+            margin: 18px;
+        }
+    }
+
+    .enlaces-cabecera {
+        &__enlace-index {
+            //text-decoration: none;
+        }
+        &__enlace-wiki {
+            //text-decoration: none;
+        }
+        &__enlace-contacto {
+            //text-decoration: none;
+        }
+        &__enlace-inicio {
+            //text-decoration: none;
+            color: $rosaOscuro;
+            background-color: $verdeClaro;
+            padding: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        &__enlace-crear {
+            //text-decoration: none;
+            color: $rosaOscuro;
+            background-color: $verdeClaro;
+            padding: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+    }
+}

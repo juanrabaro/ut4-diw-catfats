@@ -1,0 +1,22 @@
+.navegador {
+    background-color: red;
+    &__enlaces-cabecera {
+        &__enlace-contacto {}
+
+        &__enlace-crear {}
+
+        &__enlace-index {}
+
+        &__enlace-inicio {}
+
+        &__enlace-wiki {}
+    }
+
+    &__section-logo {
+        margin-left: 40px;
+        &__logo {
+            margin-left: 40px;
+        }
+    }
+}
+

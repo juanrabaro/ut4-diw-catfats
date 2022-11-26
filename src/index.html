@@ -9,31 +9,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 
+    <!--<link rel="stylesheet" href="/src/assets/sass/prueba.scss">-->
 </head>
 <body>
     <header>
-        <nav>
-            <section>
-                <img src="/src/assets/img/logo.png" alt="logo"id="logo">
+        <nav class="navegador">
+            <section class="navegador__section-logo">
+                <img src="/src/assets/img/logo.png" alt="logo"class="section-logo__logo">
             </section>
-            <section id="enlacesCabecera">
-                <a href="index.html">Generar cat fact</a>
-                <a href="wiki.html">Wiki cat facts</a>
-                <a href="contacto.html">Contactar</a>
-                <a href="index.html" id="enlaceInicio">Iniciar sesión</a>
-                <a href="index.html" id="enlaceCrear">Crear cuenta</a>
+            <section class="navegador__enlaces-cabecera">
+                <a href="index.html" class="enlaces-cabecera__enlace-index">Generar cat fact</a>
+                <a href="wiki.html" class="enlaces-cabecera__enlace-wiki">Wiki cat facts</a>
+                <a href="contacto.html" class="enlaces-cabecera__enlace-contacto">Contactar</a>
+                <a href="index.html" class="enlaces-cabecera__enlace-inicio">Iniciar sesión</a>
+                <a href="index.html" class="enlaces-cabecera__enlace-crear">Crear cuenta</a>
             </section>
         </nav>
     </header>
 
     <main>
-        <section id="imagenPrincipal">
-            <img src="/src/assets/img/imagenPrincipal.png" alt="ImagenPrincipal" id="imagenP">
-            <div id="botonGenerar">    
-                <a href="wiki.html" id="botImgP"><span>GENERAR CAT FACT</span></a>
+        <section class="imagenPrincipal">
+            <img src="/src/assets/img/imagenPrincipal.png" alt="ImagenPrincipal" class="imagenP">
+            <div class="botonGenerar">    
+                <a href="wiki.html" class="botImgP"><span>GENERAR CAT FACT</span></a>
             </div>
         </section>
-        <section id="flujoUsuario">
+        <section class="flujoUsuario">
             <!--<form class="pruebaForm">
                 <fieldset>
                     <h2>prueba</h2>
@@ -44,45 +45,45 @@
                 </fieldset>
             </form> -->
 
-            <form name="inicioSesion" id="inicioSesion">
+            <form name="inicioSesion" class="inicioSesion">
                 <fieldset>
                     <h2>Inicio sesión</h2>
                     <p class="gmail">
                         <label for="inputInicioGmail">Gmail:</label>
-                        <input id="inputInicioGmail" type="text">
+                        <input class="inputInicioGmail" type="text">
                     </p>
                     <p class="gmail">
                         <label class="labelMargen" for="inputInicioContraseña">Contraseña:</label>
-                        <input id="inputInicioContraseña" type="text">
+                        <input class="inputInicioContraseña" type="text">
                     </p>
-                    <button id="botonInicioForm">Iniciar Sesión</button>
+                    <button class="botonInicioForm">Iniciar Sesión</button>
                 </fieldset>
             </form>
 
-            <form name="crearCuenta" id="crearCuenta">
+            <form name="crearCuenta" class="crearCuenta">
                 <fieldset>
                     <h2>Crear cuenta</h2>
                     <p class="cuenta">
                         <label for="inputCrearGmail">Gmail:</label>
-                        <input id="inputCrearGmail" type="text">
+                        <input class="inputCrearGmail" type="text">
                     </p>
                     <p class="cuenta">
                         <label class="labelMargen" for="inputCrearContraseña">Contraseña:</label>
-                        <input id="inputCrearContraseña" type="text">
+                        <input class="inputCrearContraseña" type="text">
                     </p>
-                    <button id="botonCrearForm">Crear Cuenta</button>
+                    <button class="botonCrearForm">Crear Cuenta</button>
                 </fieldset>
             </form>
         </section>
     </main>
 
     <footer>
-        <section id="piePagina">
-            <section id="instaFooter">
+        <section class="piePagina">
+            <section class="instaFooter">
                 <img src="/src/assets/img/🦆 icon _instagram icon_.png" alt="iconoInsta">
                 <p>insta</p>
             </section>
-            <section id="gmailFooter">
+            <section class="gmailFooter">
                 <img src="/src/assets/img/🦆 icon _google gmail_.png" alt="iconoGmail">
                 <p>gmail</p>
             </section>

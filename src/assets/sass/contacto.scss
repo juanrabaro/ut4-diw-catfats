@@ -1,23 +1,21 @@
 @import "_variables.scss";
-@import "_footer.scss";
+//@import "_footer.scss";
+@import "_footerBEM.scss";
 @import "_globalYbody.scss";
-@import "_header.scss";
+//@import "_header.scss";
+@import "_headerBEM.scss";
 
 main {
-    #contenido {
+    .contenido {
         display: flex;
-        //justify-content: space-between;
-        //margin-left: -400px;
         margin-left: 18px;
-        //margin-right: 300px;
         margin-top: 100px;
         margin-bottom: 100px;
         gap: 20px;
         
 
-        #formulario {
+        &__formulario {
             background-color: $rosaOscuro;
-            //border: 1px solid black;
             width: 60%;
             border-radius: 10px;
             
@@ -37,7 +35,7 @@ main {
                     border-radius: 5px;
                     margin-top: -7px;
                 }
-                #segundoInput {
+                .segundo-input {
                     height: 100px;
                 }
                 button {
@@ -61,9 +59,7 @@ main {
         }
     }
 
-    #textoContacto {
-        //background-color: white;
-        //border: 1px solid black;
+    .texto-contacto {
         padding-top: 35px;
         font-size: 25px;
         font-family: $fuenteTexto;

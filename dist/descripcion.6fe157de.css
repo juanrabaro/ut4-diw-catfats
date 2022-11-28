@@ -3,7 +3,7 @@ footer {
   background-color: #a3439e;
 }
 
-footer #piePagina {
+footer .pie-pagina {
   height: 100px;
   align-items: center;
   gap: 20px;
@@ -11,19 +11,26 @@ footer #piePagina {
   display: flex;
 }
 
-footer #piePagina #instaFooter, footer #piePagina #gmailFooter {
+footer .pie-pagina__insta-footer {
   align-items: center;
   gap: 10px;
   font-family: Lato;
   display: flex;
 }
 
-footer #piePagina #instaFooter > img {
+footer .pie-pagina__insta-footer img {
   width: 30px;
   height: 30px;
 }
 
-footer #piePagina #gmailFooter > img {
+footer .pie-pagina__gmail-footer {
+  align-items: center;
+  gap: 10px;
+  font-family: Lato;
+  display: flex;
+}
+
+footer .pie-pagina__gmail-footer img {
   width: 40px;
   height: 30px;
 }
@@ -47,17 +54,16 @@ header {
   font-size: 18px;
 }
 
-header nav {
+header .navegador {
   color: #b0f092;
   display: flex;
 }
 
-header nav #logo {
-  width: 65px;
-  margin: 18px;
+header .navegador a {
+  text-decoration: none;
 }
 
-header nav #enlacesCabecera {
+header .navegador__enlaces-cabecera {
   width: 100%;
   justify-content: end;
   align-items: center;
@@ -67,7 +73,16 @@ header nav #enlacesCabecera {
   display: flex;
 }
 
-header nav #enlacesCabecera a {
+header .section-logo__logo {
+  width: 65px;
+  margin: 18px;
+}
+
+header .enlaces-cabecera__enlace-inicio, header .enlaces-cabecera__enlace-crear {
+  color: #a3439e;
+  background-color: #b0f092;
+  border-radius: 8px;
+  padding: 10px;
   text-decoration: none;
 }
 

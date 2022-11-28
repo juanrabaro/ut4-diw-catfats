@@ -6,7 +6,7 @@
 @import "_headerBEM.scss";
 
 main {
-    .imagen-principal {
+    .section-principal {
         position: relative;
         height: 500px;
         width: 100%;
@@ -19,7 +19,7 @@ main {
             width: 100%;
         }
 
-        &__imagen-p {
+        &__imagen {
             width: 98%;
             height: 94%;
             left: 1%;
@@ -31,13 +31,12 @@ main {
         }
     }
     .boton-generar {
-        &__bot-img-p {
+        &__bot-img {
             color: white;
             text-decoration: none;
             font-family: $fuenteTitulos;
             width: 260px;
             display: block;
-            //height: 100%;
             margin-left: auto;
             margin-right: auto;
             background-color: #A3439E;
@@ -56,6 +55,7 @@ main {
         margin-top: 25px;
         margin-bottom: 80px;
 
+        // Aquí se escribe lo que se repite en los dos formularios
         fieldset {
             border: 0px solid black;
             padding-top: 0px;

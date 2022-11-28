@@ -86,21 +86,21 @@ header .enlaces-cabecera__enlace-inicio, header .enlaces-cabecera__enlace-crear 
   text-decoration: none;
 }
 
-main .imagen-principal {
+main .section-principal {
   height: 500px;
   width: 100%;
   justify-content: center;
   position: relative;
 }
 
-main .imagen-principal__boton-generar {
+main .section-principal__boton-generar {
   width: 100%;
   display: block;
   position: absolute;
   top: 44%;
 }
 
-main .imagen-principal__imagen-p {
+main .section-principal__imagen {
   width: 98%;
   height: 94%;
   object-fit: cover;
@@ -111,7 +111,7 @@ main .imagen-principal__imagen-p {
   left: 1%;
 }
 
-main .boton-generar__bot-img-p {
+main .boton-generar__bot-img {
   color: #fff;
   width: 260px;
   background-color: #a3439e;

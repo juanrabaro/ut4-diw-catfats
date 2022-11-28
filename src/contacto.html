@@ -12,42 +12,43 @@
 </head>
 <body>
     <header>
-        <nav>
-            <section>
-                <img src="/src/assets/img/logo.png" alt="logo"id="logo">
+        <nav class="navegador">
+            <section class="navegador__section-logo">
+                <img src="/src/assets/img/logo.png" alt="logo"class="section-logo__logo">
             </section>
-            <section id="enlacesCabecera">
-                <a href="index.html">Generar cat fact</a>
-                <a href="wiki.html">Wiki cat facts</a>
-                <a href="contacto.html">Contactar</a>
-                <a href="index.html" id="enlaceInicio">Iniciar sesión</a>
-                <a href="index.html" id="enlaceCrear">Crear cuenta</a>
+            <section class="navegador__enlaces-cabecera">
+                <a href="index.html" class="enlaces-cabecera__enlace-index">Generar cat fact</a>
+                <a href="wiki.html" class="enlaces-cabecera__enlace-wiki">Wiki cat facts</a>
+                <a href="contacto.html" class="enlaces-cabecera__enlace-contacto">Contactar</a>
+                <a href="index.html" class="enlaces-cabecera__enlace-inicio">Iniciar sesión</a>
+                <a href="index.html" class="enlaces-cabecera__enlace-crear">Crear cuenta</a>
             </section>
         </nav>
     </header>
+
     <main>
-        <section id="contenido">
-            <form id="formulario">
+        <section class="contenido">
+            <form class="contenido__formulario">
                 <fieldset>
                     <h2>Escribenos tu propuesta o problema</h2>
                     <p>
-                        <label for="primerInput">Gmail</label>
+                        <label for="primer-input">Gmail</label>
                     </p>
                     <p>
-                        <input id="primerInput" type="text">
+                        <input class="primer-input" type="text">
                     </p>
                     <p>
-                        <label for="segundoInput">Escribe aquí</label>
+                        <label for="segundo-input">Escribe aquí</label>
                     </p>
                     <p>
-                        <input id="segundoInput" type="text">
+                        <input class="segundo-input" type="text">
                     </p>
                     <p>
-                        <button id="botonContactar">Contáctanos</button>
+                        <button class="boton-contactar">Contáctanos</button>
                     </p>
                 </fieldset>
             </form>
-            <section id="textoContacto">
+            <section class="texto-contacto">
                 <p>Contáctenos directamente en:</p>
                 <ul>
                     <li>gmail</li>
@@ -58,12 +59,12 @@
         </section>
     </main>
     <footer>
-        <section id="piePagina">
-            <section id="instaFooter">
+        <section class="pie-pagina">
+            <section class="pie-pagina__insta-footer">
                 <img src="/src/assets/img/🦆 icon _instagram icon_.png" alt="iconoInsta">
                 <p>insta</p>
             </section>
-            <section id="gmailFooter">
+            <section class="pie-pagina__gmail-footer">
                 <img src="/src/assets/img/🦆 icon _google gmail_.png" alt="iconoGmail">
                 <p>gmail</p>
             </section>

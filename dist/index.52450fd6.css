@@ -125,6 +125,7 @@ main .boton-generar__bot-img {
 }
 
 main .flujo-usuario {
+  flex-flow: wrap;
   justify-content: center;
   gap: 20px;
   margin-top: 25px;
@@ -217,6 +218,12 @@ main .flujo-usuario .gmail__input-inicio-contraseña, main .flujo-usuario .gmail
 
 main .flujo-usuario .gmail__label-margen {
   margin-right: 22px;
+}
+
+@media screen and (max-width: 940px) {
+  .section-principal {
+    background-color: red;
+  }
 }
 
 /*# sourceMappingURL=index.52450fd6.css.map */

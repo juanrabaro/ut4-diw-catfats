@@ -129,4 +129,11 @@ main .item-grid a span {
   bottom: 0;
 }
 
+@media screen and (max-width: 850px) {
+  main {
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+  }
+}
+
 /*# sourceMappingURL=wiki.0637bbef.css.map */

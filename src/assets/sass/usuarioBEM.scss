@@ -1,0 +1,52 @@
+@import "_variables.scss";
+//@import "_footer.scss";
+@import "_footerBEM.scss";
+@import "_globalYbody.scss";
+//@import "_header.scss";
+@import "_headerBEM.scss";
+
+main {
+    display: flex;
+    justify-content: center;
+
+    .cuadro-informacion {
+        background-color: $rosaOscuro;
+        height: 450px;
+        width: 35%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        //border: 1px solid black;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        
+        &__imagen-usuario {
+            width: 180px;
+            margin-top: 20px;
+        }
+
+        &__usuario-y-gmail {
+            width: 400px;
+        }
+
+        .usuario-y-gmail__usuario {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .usuario-y-gmail__gmail {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: $fuenteTexto;
+        }
+
+        .parrafo-raro {
+            font-family: $fuenteTitulos;
+        }
+    }
+}

@@ -58,3 +58,16 @@ main {
         grid-template-rows: auto auto auto;
     }
 }
+
+@media screen and (max-width: 620px) {
+    main {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    main {
+        grid-template-columns: auto;
+    }
+}

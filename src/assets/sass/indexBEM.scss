@@ -169,3 +169,12 @@ main {
     }
 }
 */
+
+@media screen and (max-width: 490px) {
+    main .flujo-usuario fieldset {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+//boton hamburguesa a 800px

@@ -76,15 +76,28 @@ main {
 
 
 @media screen and (max-width: 900px) {
-    .contenido {
+    main .contenido {
         flex-flow: column wrap;
         align-items: center;
+    }
+    main .contenido__formulario {
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .formulario__fieldset-form {
+    .fieldset-form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/*
+@media screen and (max-width: 700px) {
+    .contenido__formulario__fieldset-form {
         padding-left: 0px;
         padding-right: 0px;
     }
 }
+*/

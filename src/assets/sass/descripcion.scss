@@ -26,7 +26,7 @@ main {
             width: 50%;
             height: 400px;
             object-fit: cover;
-            object-position: 90%;
+            object-position: 80%;
             border-radius: 20px;
         }
         p {
@@ -38,9 +38,31 @@ main {
     }
 }
 
+/*
+@media screen and (max-width: 1200px) {
+    .contenido img {
+        object-position: 70%;
+    }
+}
+*/
 @media screen and (max-width: 1050px) {
     .contenido {
         flex-flow: column wrap;
     }
+    .contenido img {
+        width: 70%;
+    }
 }
-//object-position: 70%; en max-width:1200px
+
+@media screen and (max-width: 650px) {
+    .contenido {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .contenido img {
+        width: 100%;
+    }
+    .contenido p {
+        width: 100%;
+    }
+}

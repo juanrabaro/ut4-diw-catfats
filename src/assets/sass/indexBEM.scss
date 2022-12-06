@@ -162,13 +162,7 @@ main {
 }
 }
 
-/*
-@media screen and (max-width: 940px) {
-    .section-principal {
-        background-color: red;
-    }
-}
-*/
+
 
 @media screen and (max-width: 490px) {
     main .flujo-usuario fieldset {
@@ -177,4 +171,8 @@ main {
     }
 }
 
-//boton hamburguesa a 800px
+@media screen and (max-width: 600px) {
+    main .section-principal__imagen {
+        object-position: 70%;
+    }
+}

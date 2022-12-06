@@ -15,6 +15,7 @@ header {
         }
         &__enlaces-cabecera {
             display: flex;
+            flex-direction: row;
             align-items: center;
             justify-content: end;
             gap: 15px;
@@ -29,6 +30,41 @@ header {
         &__logo {
             width: 65px;
             margin: 18px;
+        }
+    }
+
+    .input-hamburguesa {
+        display: none;
+    }
+    .input-hamburguesa:checked + .navegador__enlaces-cabecera {
+        display: flex;
+    }
+    .label-hamburguesa {
+        display: none;
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        font-size: 40px;
+    }
+    
+    @media screen and (max-width: 820px) {
+        .label-hamburguesa {
+            display: block;
+            cursor: pointer;
+        }
+        .navegador__enlaces-cabecera {
+            display: none;
+
+            flex-direction: column;
+            width: 40%;
+            margin-right: 0px;
+            position: absolute;
+            top: 70px;
+            right: 30px;
+            background-color: $rosaOscuro;
+            z-index: 1;
+            padding: 10px;
+            border-radius: 20px;
         }
     }
 

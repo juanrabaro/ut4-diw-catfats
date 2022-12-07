@@ -1,12 +1,12 @@
 @import "_variables.scss";
-@import "_headerBEM.scss";
-@import "_globalYbody.scss";
-@import "_footerBEM.scss";
+@import "_header.scss";
+@import "_reset.scss";
+@import "_footer.scss";
 
-@import "indexBEM.scss";
-@import "wiki.scss";
-@import "descripcion.scss";
-@import "contacto.scss";
-@import "usuario.scss";
-@import "pag404.scss";
+@import "_index.scss";
+@import "_wiki.scss";
+@import "_descripcion.scss";
+@import "_contacto.scss";
+@import "_usuario.scss";
+@import "_pag404.scss";
 

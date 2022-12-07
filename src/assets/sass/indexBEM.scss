@@ -28,6 +28,7 @@ main {
             object-fit: cover;
             object-position: top;
             border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
     }
     .boton-generar {
@@ -44,6 +45,7 @@ main {
             padding-left: 50px;
             padding-right: 50px;
             border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
     }
 
@@ -68,10 +70,12 @@ main {
             padding-right: 100px;
             background-color: $rosaOscuro;
             border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
             h2 {
                 text-align: center;
-                margin-bottom: 50px;
+                margin-bottom: 40px;
+                margin-top: 40px;
                 font-family: $fuenteTitulos;
             }
             label {
@@ -87,7 +91,8 @@ main {
         }
     }
     .crear-cuenta {
-        &__botonCrearForm {
+        &__boton-crear-form {
+            text-decoration: none;
             color: black;
             background-color: $verdeClaro;
             border-radius: 12px;
@@ -95,10 +100,11 @@ main {
             margin-left: auto;
             margin-right: auto;
             margin-top: 40px;
-            padding: 10px;
+            padding: 13px;
             width: 125px;
             font-family: $fuenteTitulos;
             font-size: 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
         &__cuenta {
             display: flex;
@@ -125,6 +131,7 @@ main {
 
     .inicio-sesion {
         &__boton-inicio-form {
+            text-decoration: none;
             color: black;
             background-color: $verdeClaro;
             border-radius: 12px;
@@ -132,10 +139,11 @@ main {
             margin-left: auto;
             margin-right: auto;
             margin-top: 40px;
-            padding: 10px;
+            padding: 13px;
             width: 125px;
             font-family: $fuenteTitulos;
             font-size: 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
         &__gmail {
             display: flex;

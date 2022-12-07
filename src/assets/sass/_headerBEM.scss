@@ -5,6 +5,7 @@ header {
     width: 100%;
     font-family: $fuenteTitulos;
     font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px;
         
     .navegador {
         display: flex;
@@ -63,9 +64,12 @@ header {
             right: 30px;
             background-color: $rosaOscuro;
             z-index: 1;
-            padding: 10px;
+            padding: 15px;
+            padding-top: 25px;
+            padding-bottom: 25px;
             border-radius: 20px;
             border: 1px solid $rosaClaro;
+            
         }
     }
 
@@ -88,20 +92,20 @@ header {
             //text-decoration: none;
         }
         &__enlace-inicio {
-            //text-decoration: none;
             color: $rosaOscuro;
             background-color: $verdeClaro;
             padding: 10px;
             border-radius: 8px;
             text-decoration: none;
+            box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px;
         }
         &__enlace-crear {
-            //text-decoration: none;
             color: $rosaOscuro;
             background-color: $verdeClaro;
             padding: 10px;
             border-radius: 8px;
             text-decoration: none;
+            box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px;
         }
     }
 }

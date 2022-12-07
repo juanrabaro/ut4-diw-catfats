@@ -52,30 +52,28 @@ main {
 }
 
 @media screen and (max-width: 1300px) {
-    .cuadro-informacion__usuario-y-gmail {
+    main .cuadro-informacion__usuario-y-gmail {
         width: 300px;
     }
 }
 
-@media screen and (max-width: 980px) {
-    .cuadro-informacion__usuario-y-gmail {
-        width: 240px;
-    }
-}
 
 @media screen and (max-width: 980px) {
-    .cuadro-informacion__usuario-y-gmail {
+    main .cuadro-informacion__usuario-y-gmail {
         width: 300px;
     }
-    .cuadro-informacion {
+    main .cuadro-informacion {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 460px) {
-    .cuadro-informacion__usuario-y-gmail {
+    main .cuadro-informacion {
+        width: 90%;
+    }
+
+    main .cuadro-informacion__usuario-y-gmail {
         width: 240px;
     }
 }
 
-//ya estaria responsive con 360px incluido

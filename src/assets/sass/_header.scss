@@ -43,15 +43,15 @@ header {
     .label-hamburguesa {
         display: none;
         position: absolute;
-        top: 30px;
-        right: 40px;
-        font-size: 40px;
     }
     
     @media screen and (max-width: 800px) {
         .label-hamburguesa {
             display: block;
             cursor: pointer;
+            margin-top: 22px;
+            right: 40px;
+            font-size: 40px;
         }
         .navegador__enlaces-cabecera {
             display: none;

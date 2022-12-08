@@ -1,16 +1,15 @@
 
-main {
+.main-usuario {
     display: flex;
     justify-content: center;
 
-    .cuadro-informacion {
+    &__cuadro-informacion {
         background-color: $rosaOscuro;
         height: 450px;
         width: 35%;
         margin-top: 50px;
         margin-bottom: 50px;
         border-radius: 20px;
-        //border: 1px solid black;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
@@ -46,27 +45,27 @@ main {
 }
 
 @media screen and (max-width: 1300px) {
-    main .cuadro-informacion__usuario-y-gmail {
+    .main-usuario__cuadro-informacion__usuario-y-gmail {
         width: 300px;
     }
 }
 
 
 @media screen and (max-width: 980px) {
-    main .cuadro-informacion__usuario-y-gmail {
+    .main-usuario__cuadro-informacion__usuario-y-gmail {
         width: 300px;
     }
-    main .cuadro-informacion {
+    .main-usuario__cuadro-informacion {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 460px) {
-    main .cuadro-informacion {
+    .main-usuario__cuadro-informacion {
         width: 90%;
     }
 
-    main .cuadro-informacion__usuario-y-gmail {
+    .main-usuario__cuadro-informacion__usuario-y-gmail {
         width: 240px;
     }
 }

@@ -4,7 +4,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "clean": "rimraf dist .cache .cache-loader",
+    "clean": "rimraf dist .cache .cache-loader .parcel-cache",
     
     "dev": "npm-run-all clean start",
     "buildClean": "npm-run-all clean build"

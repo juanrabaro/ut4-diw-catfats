@@ -1,46 +1,52 @@
 
 
-main {
-    .titulos {
-        font-family: $fuenteTitulos;
-        margin-left: 25%;
 
-        &__h1 {
-            font-size: 60px;
-            margin-bottom: 0;
-            color: black;
-        }
-        &__h2 {
-            font-size: 35px;
-            margin-top: 0;
-            color: black;
-        }
+.titulos {
+    font-family: $fuenteTitulos;
+    margin-left: 25%;
+
+    &__h1 {
+        font-size: 60px;
+        margin-bottom: 0;
+        color: black;
     }
-
-    .parrafo {
-        font-family: $fuenteTexto;
-        margin-left: 25%;
-        font-size: 25px;
-
-        &__texto {
-            color: black;
-        }
+    &__h2 {
+        font-size: 35px;
+        margin-top: 0;
+        color: black;
     }
 }
 
-footer {
+.parrafo {
+    font-family: $fuenteTexto;
+    margin-left: 25%;
+    font-size: 25px;
+
+    &__texto {
+        color: black;
+    }
+}
+
+
+.footer-pag404 {
     margin-top: 302px;
 }
 
 @media screen and (max-width: 1025px) {
-    main section {
+    .titulos {
+        margin-left: 15%;
+    }
+    .parrafo {
         margin-left: 15%;
     }
 }
 
 @media screen and (max-width: 520px) {
-    main section {
-        margin-left: 10%;
+    .titulos {
+        margin-left: 15%;
+    }
+    .parrafo {
+        margin-left: 15%;
     }
     .titulos__h1 {
         font-size: 40px;
@@ -51,6 +57,4 @@ footer {
     .parrafo__texto {
         font-size: 20px;
     }
-    //primerh1 size40px segundoh1size22px
-    //parrafo 20px
 }

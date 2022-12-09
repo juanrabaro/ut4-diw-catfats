@@ -1,6 +1,22 @@
-//Variables
+// Variables colores
 $rosaOscuro: #A3439E;
 $rosaClaro: #F0B7ED;
 $verdeClaro: #B0F092;
+
+// Variables familia textos
 $fuenteTitulos: "Fredoka One";
 $fuenteTexto: "Lato";
+
+
+// Tema principal
+.theme {
+    --rosaOscuro: #{$rosaOscuro};
+    --rosaClaro: #{$rosaClaro};
+    --verdeClaro: #{$verdeClaro};
+    // Tema oscuro
+    .theme--dark {
+        --rosaOscuro: #{$rosaOscuro--dark};
+        --rosaClaro: #{$rosaClaro--dark};
+        --verdeClaro: #{$verdeClaro--dark};
+    }
+}

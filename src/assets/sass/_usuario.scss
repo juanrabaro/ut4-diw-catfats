@@ -45,14 +45,14 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .main-usuario__cuadro-informacion__usuario-y-gmail {
+    .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
         width: 300px;
     }
 }
 
 
 @media screen and (max-width: 980px) {
-    .main-usuario__cuadro-informacion__usuario-y-gmail {
+    .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
         width: 300px;
     }
     .main-usuario__cuadro-informacion {
@@ -65,7 +65,7 @@
         width: 90%;
     }
 
-    .main-usuario__cuadro-informacion__usuario-y-gmail {
+    .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
         width: 240px;
     }
 }

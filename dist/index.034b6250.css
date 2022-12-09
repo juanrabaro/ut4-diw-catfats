@@ -7,11 +7,15 @@
 .theme .theme--dark {
   --rosaOscuro: #4e214c;
   --rosaClaro: #896787;
-  --verdeClaro: #78a463;
+  --verdeClaro: #90c677;
 }
 
 .header-dark-mode {
   background-color: #4e214c;
+}
+
+header .navegador__enlaces-cabecera .boton-header-dark-mode {
+  background-color: #90c677;
 }
 
 header {
@@ -115,6 +119,14 @@ body {
 
 .body-dark-mode {
   background-color: #896787;
+}
+
+.footer-dark-mode {
+  background-color: #4e214c;
+}
+
+.footer-pag404 .footer-pag404__pie-pagina-pag404 .boton-dark-dark {
+  background-color: #90c677;
 }
 
 footer {
@@ -252,7 +264,7 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
 .flujo-usuario .crear-cuenta__boton-crear-form {
   color: #000;
   width: 125px;
-  background-color: #b0f092;
+  background-color: #90c677;
   border-radius: 12px;
   margin-top: 40px;
   margin-left: auto;
@@ -285,7 +297,7 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
 .flujo-usuario .inicio-sesion__boton-inicio-form {
   color: #000;
   width: 125px;
-  background-color: #b0f092;
+  background-color: #90c677;
   border-radius: 12px;
   margin-top: 40px;
   margin-left: auto;
@@ -591,13 +603,13 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
 }
 
 @media screen and (max-width: 1300px) {
-  .main-usuario__cuadro-informacion__usuario-y-gmail {
+  .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
     width: 300px;
   }
 }
 
 @media screen and (max-width: 980px) {
-  .main-usuario__cuadro-informacion__usuario-y-gmail {
+  .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
     width: 300px;
   }
 
@@ -611,7 +623,7 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
     width: 90%;
   }
 
-  .main-usuario__cuadro-informacion__usuario-y-gmail {
+  .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
     width: 240px;
   }
 }

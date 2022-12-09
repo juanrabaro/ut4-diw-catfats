@@ -2,6 +2,9 @@
 .header-dark-mode {
     background-color: $rosaOscuro--dark;
 }
+header .navegador__enlaces-cabecera .boton-header-dark-mode {
+    background-color: $verdeClaro--dark;
+}
 
 // Estilos normales
 header {

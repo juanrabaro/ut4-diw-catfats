@@ -1,60 +1,60 @@
 
 
+.main-404 {
+    height: 500px;
 
-.titulos {
-    font-family: $fuenteTitulos;
-    margin-left: 25%;
+    .main-404__titulos {
+        font-family: $fuenteTitulos;
+        margin-left: 25%;
 
-    &__h1 {
-        font-size: 60px;
-        margin-bottom: 0;
-        color: black;
+        .titulos__h1 {
+            font-size: 60px;
+            margin-bottom: 0;
+            color: black;
+        }
+        .titulos__h2 {
+            font-size: 35px;
+            margin-top: 0;
+            color: black;
+        }
     }
-    &__h2 {
-        font-size: 35px;
-        margin-top: 0;
-        color: black;
+
+    .main-404__parrafo {
+        font-family: $fuenteTexto;
+        margin-left: 25%;
+        font-size: 25px;
+
+        .parrafo__texto {
+            color: black;
+        }
     }
 }
 
-.parrafo {
-    font-family: $fuenteTexto;
-    margin-left: 25%;
-    font-size: 25px;
 
-    &__texto {
-        color: black;
-    }
-}
-
-
-.footer-pag404 {
-    margin-top: 302px;
-}
 
 @media screen and (max-width: 1025px) {
-    .titulos {
+    .main-404 .main-404__titulos {
         margin-left: 15%;
     }
-    .parrafo {
+    .main-404 .main-404__parrafo {
         margin-left: 15%;
     }
 }
 
 @media screen and (max-width: 520px) {
-    .titulos {
+    .main-404 .main-404__titulos {
         margin-left: 15%;
     }
-    .parrafo {
+    .main-404 .main-404__parrafo {
         margin-left: 15%;
     }
-    .titulos__h1 {
+    .main-404 .main-404__titulos__h1 {
         font-size: 40px;
     }
-    .titulos__h2 {
+    .main-404 .main-404__titulos__h2 {
         font-size: 22px;
     }
-    .parrafo__texto {
+    .main-404 .main-404__parrafo__texto {
         font-size: 20px;
     }
 }

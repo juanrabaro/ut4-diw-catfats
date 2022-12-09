@@ -1,66 +1,65 @@
 
-.main-contacto {
-    .main-contacto__contenido-contacto {
-        display: flex;
-        margin-left: 18px;
-        margin-right: 18px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        gap: 20px;
+
+.main-contacto__contenido-contacto {
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+    
+
+    .contenido-contacto__formulario {
+        background-color: $rosaOscuro;
+        width: 60%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         
 
-        .contenido-contacto__formulario {
-            background-color: $rosaOscuro;
-            width: 60%;
-            border-radius: 10px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            
+        .formulario__fieldset-form {
+            border: 0px solid black;
+            padding-left: 100px;
+            padding-right: 100px;
 
-            .formulario__fieldset-form {
-                border: 0px solid black;
-                padding-left: 100px;
-                padding-right: 100px;
-
-                h2 {
-                    text-align: center;
-                    font-family: $fuenteTitulos;
-                }
-                input {
-                    width: 100%;
-                    height: 30px;
-                    border-radius: 5px;
-                    margin-top: -7px;
-                }
-                .segundo-input {
-                    height: 100px;
-                }
-                button {
-                    font-family: $fuenteTitulos;
-                    color: black;
-                    background-color: $verdeClaro;
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    border-radius: 10px;
-                    padding: 6px;
-                    padding-left: 40px;
-                    padding-right: 40px;
-                    margin-top: 25px;
-                    margin-bottom: 25px;
-                    box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px;
-                }
-                label {
-                    font-family: $fuenteTexto;
-                }
+            h2 {
+                text-align: center;
+                font-family: $fuenteTitulos;
+            }
+            input {
+                width: 100%;
+                height: 30px;
+                border-radius: 5px;
+                margin-top: -7px;
+            }
+            .segundo-input {
+                height: 100px;
+            }
+            button {
+                font-family: $fuenteTitulos;
+                color: black;
+                background-color: $verdeClaro;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 10px;
+                padding: 6px;
+                padding-left: 40px;
+                padding-right: 40px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px;
+            }
+            label {
+                font-family: $fuenteTexto;
             }
         }
     }
-
-    .texto-contacto {
+    
+    .contenido-contacto__texto-contacto {
         padding-top: 35px;
         font-size: 25px;
         font-family: $fuenteTexto;
-
+    
         p {
             color: black;
         }
@@ -69,32 +68,38 @@
             margin-left: 50px;
         }
     }
+    
 }
+
 
 
 @media screen and (max-width: 900px) {
     .main-contacto__contenido-contacto {
         flex-flow: column wrap;
         align-items: center;
+        .contenido-contacto__formulario {
+            width: 80%;
+        }
     }
-    .main-contacto__contenido-contacto__formulario {
-        width: 80%;
-    }
+    
 }
 
 @media screen and (max-width: 700px) {
-    .main-contacto__contenido-contacto__formulario {
+    .main-contacto__contenido-contacto .contenido-contacto__formulario {
         padding-left: 25px;
         padding-right: 25px;
     }
-    .main-contacto__contenido-contacto__formulario__fieldset-form {
+    .main-contacto__contenido-contacto .contenido-contacto__formulario .formulario__fieldset-form {
         padding-left: 25px;
         padding-right: 25px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .main-contacto__contenido-contacto__formulario {
+    .main-contacto__contenido-contacto .contenido-contacto__formulario {
         width: 96%;
+    }
+    .main-contacto__contenido-contacto .contenido-contacto__formulario .formulario__fieldset-form {
+        width: 94%;
     }
 }

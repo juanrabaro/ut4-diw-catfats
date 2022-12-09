@@ -1,9 +1,11 @@
 
 .main-descripcion {
-    h1 {
-        font-family: $fuenteTitulos;
-        color: black;
-        text-align: center;
+    &__h1 {
+        h1 {
+            font-family: $fuenteTitulos;
+            color: black;
+            text-align: center;
+        }
     }
     
     &__contenido-descripcion {
@@ -33,13 +35,7 @@
     }
 }
 
-/*
-@media screen and (max-width: 1200px) {
-    .contenido img {
-        object-position: 70%;
-    }
-}
-*/
+
 @media screen and (max-width: 1050px) {
     .main-descripcion__contenido-descripcion {
         flex-flow: column wrap;

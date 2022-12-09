@@ -1,6 +1,11 @@
+// Dark mode
+.header-dark-mode {
+    background-color: $rosaOscuro--dark;
+}
 
+// Estilos normales
 header {
-    background-color: var(--rosaOscuro);
+    background-color: $rosaOscuro;
     height: 105px;
     width: 100%;
     font-family: $fuenteTitulos;
@@ -108,9 +113,4 @@ header {
             box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px;
         }
     }
-}
-
-
-.header-dark-mode {
-    background-color: $rosaOscuro--dark;
 }

@@ -32,11 +32,11 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main-index">
         <section class="section-principal">
             <img src="/imagenPrincipal.762b95a6.png" alt="ImagenPrincipal" class="section-principal__imagen">
             <div class="section-principal__boton-generar">
-                <a href="/wiki.html" class="boton-generar__bot-img"><span>GENERAR CAT FACT</span></a>
+                <a href="/wiki.html" class="boton-generar__bot-img" id="bot-img-darkMode"><span>GENERAR CAT FACT</span></a>
             </div>
         </section>
         <section class="flujo-usuario">
@@ -51,7 +51,7 @@
             </form> -->
 
             <form name="inicioSesion" class="flujo-usuario__inicio-sesion">
-                <fieldset>
+                <fieldset id="fieldset-darkMode1">
                     <h2>Inicio sesión</h2>
                     <p class="inicio-sesion__gmail">
                         <label for="inputInicioGmail">Gmail:</label>
@@ -66,7 +66,7 @@
             </form>
 
             <form name="crearCuenta" class="flujo-usuario__crear-cuenta">
-                <fieldset>
+                <fieldset id="fieldset-darkMode2">
                     <h2>Crear cuenta</h2>
                     <p class="crear-cuenta__cuenta">
                         <label for="inputCrearGmail">Gmail:</label>
@@ -81,7 +81,6 @@
             </form>
         </section>
         <a href="/pag404.html">pagina 404</a>
-        <button class="boton-dark-mode" onclick="darkMode()">DARK MODE</button>
     </main>
 
     <footer>
@@ -93,6 +92,9 @@
             <section class="pie-pagina__gmail-footer">
                 <img src="/🦆%20icon%20_google%20gmail_.a7cb3a90.png" alt="iconoGmail">
                 <p>gmail</p>
+            </section>
+            <section class="pie-pagina__section-boton-dark-mode">
+                <button class="section-boton-dark-mode__boton-dark-mode" onclick="darkModeIndex()">DARK MODE</button>
             </section>
         </section>
     </footer>

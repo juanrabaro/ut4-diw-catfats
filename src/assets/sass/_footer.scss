@@ -1,4 +1,7 @@
+// Dark mode
 
+
+// Estilos normales
 footer {
     background-color: $rosaOscuro;
     height: 100px;
@@ -29,6 +32,19 @@ footer {
             img {
                 width: 40px;
                 height: 30px;
+            }
+        }
+        &__section-boton-dark-mode {
+            margin-left: auto;
+
+            button {
+                margin-right: 50px;
+                background-color: $verdeClaro;
+                color: black;
+                font-family: $fuenteTitulos;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             }
         }
     }

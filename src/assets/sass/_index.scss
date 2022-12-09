@@ -1,4 +1,13 @@
 
+// Dark mode
+.section-principal__boton-generar .bot-img-dark-mode {
+    background-color: $rosaOscuro--dark;
+}
+.main-index .flujo-usuario .fieldset-dark-mode {
+    background-color: $rosaOscuro--dark;
+}
+
+// Estilos normales
 .section-principal {
     position: relative;
     height: 500px;
@@ -163,7 +172,7 @@
 }
 
 
-
+//transition-duration: 0.6s;
 
 @media screen and (max-width: 490px) {
     .flujo-usuario fieldset {

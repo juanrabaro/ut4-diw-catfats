@@ -5,15 +5,19 @@
 }
 
 .theme .theme--dark {
-  --rosaOscuro: #60295e;
+  --rosaOscuro: #4e214c;
   --rosaClaro: #896787;
   --verdeClaro: #78a463;
 }
 
+.header-dark-mode {
+  background-color: #4e214c;
+}
+
 header {
-  background-color: var(--rosaOscuro);
   height: 105px;
   width: 100%;
+  background-color: #a3439e;
   font-family: Fredoka One;
   font-size: 18px;
   box-shadow: 3px 3px 8px #0000003d;
@@ -98,10 +102,6 @@ header .enlaces-cabecera__enlace-inicio, header .enlaces-cabecera__enlace-crear 
   box-shadow: 3px 3px 8px #0000003d;
 }
 
-.header-dark-mode {
-  background-color: #60295e;
-}
-
 * {
   box-sizing: border-box;
   color: #fff;
@@ -153,6 +153,24 @@ footer .pie-pagina__gmail-footer, footer .footer-pag404__pie-pagina-pag404__gmai
 footer .pie-pagina__gmail-footer img, footer .footer-pag404__pie-pagina-pag404__gmail-footer img {
   width: 40px;
   height: 30px;
+}
+
+footer .pie-pagina__section-boton-dark-mode, footer .footer-pag404__pie-pagina-pag404__section-boton-dark-mode {
+  margin-left: auto;
+}
+
+footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-pagina-pag404__section-boton-dark-mode button {
+  color: #000;
+  background-color: #b0f092;
+  border-radius: 10px;
+  margin-right: 50px;
+  padding: 10px;
+  font-family: Fredoka One;
+  box-shadow: 0 5px 15px #00000059;
+}
+
+.section-principal__boton-generar .bot-img-dark-mode, .main-index .flujo-usuario .fieldset-dark-mode {
+  background-color: #4e214c;
 }
 
 .section-principal {

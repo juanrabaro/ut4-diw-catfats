@@ -53,6 +53,7 @@
 @media screen and (max-width: 1300px) {
     .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
         width: 300px;
+        transition-duration: 0.6s;
     }
 }
 
@@ -60,19 +61,23 @@
 @media screen and (max-width: 980px) {
     .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
         width: 300px;
+        transition-duration: 0.6s;
     }
     .main-usuario__cuadro-informacion {
         width: 70%;
+        transition-duration: 0.6s;
     }
 }
 
 @media screen and (max-width: 460px) {
     .main-usuario__cuadro-informacion {
         width: 90%;
+        transition-duration: 0.6s;
     }
 
     .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
         width: 240px;
+        transition-duration: 0.6s;
     }
 }
 

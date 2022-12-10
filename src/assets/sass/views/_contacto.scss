@@ -82,8 +82,10 @@ body .main-contacto__contenido-contacto .formulario-contacto-dark-mode {
     .main-contacto__contenido-contacto {
         flex-flow: column wrap;
         align-items: center;
+        transition-duration: 0.6s;
         .contenido-contacto__formulario {
             width: 80%;
+            transition-duration: 0.6s;
         }
     }
     
@@ -93,18 +95,22 @@ body .main-contacto__contenido-contacto .formulario-contacto-dark-mode {
     .main-contacto__contenido-contacto .contenido-contacto__formulario {
         padding-left: 25px;
         padding-right: 25px;
+        transition-duration: 0.6s;
     }
     .main-contacto__contenido-contacto .contenido-contacto__formulario .formulario__fieldset-form {
         padding-left: 25px;
         padding-right: 25px;
+        transition-duration: 0.6s;
     }
 }
 
 @media screen and (max-width: 550px) {
     .main-contacto__contenido-contacto .contenido-contacto__formulario {
         width: 96%;
+        transition-duration: 0.6s;
     }
     .main-contacto__contenido-contacto .contenido-contacto__formulario .formulario__fieldset-form {
         width: 94%;
+        transition-duration: 0.6s;
     }
 }

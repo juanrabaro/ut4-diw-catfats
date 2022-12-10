@@ -323,12 +323,14 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
   .flujo-usuario fieldset {
     padding-left: 40px;
     padding-right: 40px;
+    transition-duration: .6s;
   }
 }
 
 @media screen and (max-width: 600px) {
   .section-principal__imagen {
     object-position: 70%;
+    transition-duration: .6s;
   }
 }
 
@@ -384,6 +386,7 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
   .main-wiki {
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto;
+    transition-duration: .6s;
   }
 }
 
@@ -391,12 +394,14 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
   .main-wiki {
     padding-left: 5px;
     padding-right: 5px;
+    transition-duration: .6s;
   }
 }
 
 @media screen and (max-width: 460px) {
   .main-wiki {
     grid-template-columns: auto;
+    transition-duration: .6s;
   }
 }
 
@@ -435,16 +440,19 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
 @media screen and (max-width: 1050px) {
   .main-descripcion__contenido-descripcion {
     flex-flow: column wrap;
+    transition-duration: .6s;
   }
 
   .main-descripcion__contenido-descripcion img {
     width: 70%;
+    transition-duration: .6s;
   }
 }
 
 @media screen and (max-width: 850px) {
   .main-descripcion__contenido-descripcion img {
     width: 85%;
+    transition-duration: .6s;
   }
 }
 
@@ -452,10 +460,12 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
   .main-descripcion__contenido-descripcion {
     padding-left: 5px;
     padding-right: 5px;
+    transition-duration: .6s;
   }
 
   .main-descripcion__contenido-descripcion img, .main-descripcion__contenido-descripcion p {
     width: 90%;
+    transition-duration: .6s;
   }
 }
 
@@ -532,10 +542,12 @@ body .main-contacto__contenido-contacto .formulario-contacto-dark-mode {
   .main-contacto__contenido-contacto {
     flex-flow: column wrap;
     align-items: center;
+    transition-duration: .6s;
   }
 
   .main-contacto__contenido-contacto .contenido-contacto__formulario {
     width: 80%;
+    transition-duration: .6s;
   }
 }
 
@@ -543,16 +555,19 @@ body .main-contacto__contenido-contacto .formulario-contacto-dark-mode {
   .main-contacto__contenido-contacto .contenido-contacto__formulario, .main-contacto__contenido-contacto .contenido-contacto__formulario .formulario__fieldset-form {
     padding-left: 25px;
     padding-right: 25px;
+    transition-duration: .6s;
   }
 }
 
 @media screen and (max-width: 550px) {
   .main-contacto__contenido-contacto .contenido-contacto__formulario {
     width: 96%;
+    transition-duration: .6s;
   }
 
   .main-contacto__contenido-contacto .contenido-contacto__formulario .formulario__fieldset-form {
     width: 94%;
+    transition-duration: .6s;
   }
 }
 
@@ -609,26 +624,31 @@ body .main-contacto__contenido-contacto .formulario-contacto-dark-mode {
 @media screen and (max-width: 1300px) {
   .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
     width: 300px;
+    transition-duration: .6s;
   }
 }
 
 @media screen and (max-width: 980px) {
   .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
     width: 300px;
+    transition-duration: .6s;
   }
 
   .main-usuario__cuadro-informacion {
     width: 70%;
+    transition-duration: .6s;
   }
 }
 
 @media screen and (max-width: 460px) {
   .main-usuario__cuadro-informacion {
     width: 90%;
+    transition-duration: .6s;
   }
 
   .main-usuario__cuadro-informacion .cuadro-informacion__usuario-y-gmail {
     width: 240px;
+    transition-duration: .6s;
   }
 }
 
@@ -666,24 +686,29 @@ body .main-contacto__contenido-contacto .formulario-contacto-dark-mode {
 @media screen and (max-width: 1025px) {
   .main-404 .main-404__titulos, .main-404 .main-404__parrafo {
     margin-left: 15%;
+    transition-duration: .6s;
   }
 }
 
 @media screen and (max-width: 520px) {
   .main-404 .main-404__titulos, .main-404 .main-404__parrafo {
     margin-left: 15%;
+    transition-duration: .6s;
   }
 
   .main-404 .main-404__titulos__h1 {
     font-size: 40px;
+    transition-duration: .6s;
   }
 
   .main-404 .main-404__titulos__h2 {
     font-size: 22px;
+    transition-duration: .6s;
   }
 
   .main-404 .main-404__parrafo__texto {
     font-size: 20px;
+    transition-duration: .6s;
   }
 }
 

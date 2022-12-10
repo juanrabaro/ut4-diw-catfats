@@ -88,47 +88,26 @@
             font-family: $fuenteTexto;
         }
     &__crear-cuenta {
-        background-color: #A3439E;
-        border-radius: 20px;
+        @include cuadro-form;
     }
     &__inicio-sesion {
-        background-color: #A3439E;
-        border-radius: 20px;
+        @include cuadro-form;
     }
 }
 .crear-cuenta {
     &__boton-crear-form {
-        text-decoration: none;
-        color: black;
-        background-color: $verdeClaro;
-        border-radius: 12px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 40px;
-        padding: 13px;
-        width: 125px;
-        font-family: $fuenteTitulos;
-        font-size: 15px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        @include botones-form;
     }
     &__cuenta {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        @include organizacion-inputs;
     }
 }
 .cuenta {
     &__input-crear-contraseña {
-        border-radius: 10px;
-        background-color: $rosaClaro;
-        color: black;
+        @include inputs;
     }
     &__input-crear-gmail {
-        border-radius: 10px;
-        background-color: $rosaClaro;
-        color: black;
+        @include inputs;
     }
     &__label-margen {
         margin-right: 22px;
@@ -137,37 +116,18 @@
 
 .inicio-sesion {
     &__boton-inicio-form {
-        text-decoration: none;
-        color: black;
-        background-color: $verdeClaro;
-        border-radius: 12px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 40px;
-        padding: 13px;
-        width: 125px;
-        font-family: $fuenteTitulos;
-        font-size: 15px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        @include botones-form;
     }
     &__gmail {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        @include organizacion-inputs;
     }
 }
 .gmail {
     &__input-inicio-contraseña {
-        border-radius: 10px;
-        background-color: $rosaClaro;
-        color: black;
+        @include inputs;
     }
     &__input-inicio-gmail {
-        border-radius: 10px;
-        background-color: $rosaClaro;
-        color: black;
+        @include inputs;
     }
     &__label-margen {
         margin-right: 22px;

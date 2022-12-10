@@ -7,6 +7,10 @@
     background-color: $rosaOscuro--dark;
 }
 
+.main-index .flujo-usuario .boton-fieldset-dark-mode {
+    background-color: $verdeClaro--dark;
+}
+
 // Estilos normales
 .section-principal {
     position: relative;
@@ -96,7 +100,7 @@
     &__boton-crear-form {
         text-decoration: none;
         color: black;
-        background-color: $verdeClaro--dark;
+        background-color: $verdeClaro;
         border-radius: 12px;
         display: block;
         margin-left: auto;
@@ -135,7 +139,7 @@
     &__boton-inicio-form {
         text-decoration: none;
         color: black;
-        background-color: $verdeClaro--dark;
+        background-color: $verdeClaro;
         border-radius: 12px;
         display: block;
         margin-left: auto;

@@ -36,6 +36,11 @@ function darkModeIndex(){
     fieldset1.classList.toggle("fieldset-dark-mode");
     var fieldset2 = document.getElementById("fieldset-darkMode2");
     fieldset2.classList.toggle("fieldset-dark-mode");
+
+    var botonFieldset1 = document.getElementById("boton-fieldset-darkMode1");
+    botonFieldset1.classList.toggle("boton-fieldset-dark-mode");
+    var botonFieldset2 = document.getElementById("boton-fieldset-darkMode2");
+    botonFieldset2.classList.toggle("boton-fieldset-dark-mode");
 }
 
 function darkModeWiki(){

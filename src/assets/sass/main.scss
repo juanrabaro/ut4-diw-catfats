@@ -1,12 +1,19 @@
-@import "_variables.scss";
-@import "_header.scss";
-@import "_reset.scss";
-@import "_footer.scss";
+// Utilities
+@import "/src/assets/sass/utilities/_variables.scss";
+@import "/src/assets/sass/utilities/_functions.scss";
 
-@import "_index.scss";
-@import "_wiki.scss";
-@import "_descripcion.scss";
-@import "_contacto.scss";
-@import "_usuario.scss";
-@import "_pag404.scss";
+// Base
+@import "/src/assets/sass/base/_reset.scss";
+@import "/src/assets/sass/base/_typo.scss";
 
+// Layout
+@import "/src/assets/sass/layout/_header.scss";
+@import "/src/assets/sass/layout/_footer.scss";
+
+// Views
+@import "/src/assets/sass/views/_index.scss";
+@import "/src/assets/sass/views/_wiki.scss";
+@import "/src/assets/sass/views/_descripcion.scss";
+@import "/src/assets/sass/views/_contacto.scss";
+@import "/src/assets/sass/views/_usuario.scss";
+@import "/src/assets/sass/views/_pag404.scss";

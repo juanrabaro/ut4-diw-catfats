@@ -1,13 +1,16 @@
-.theme {
-  --rosaOscuro: #a3439e;
-  --rosaClaro: #f0b7ed;
-  --verdeClaro: #b0f092;
+* {
+  box-sizing: border-box;
+  color: #fff;
 }
 
-.theme .theme--dark {
-  --rosaOscuro: #4e214c;
-  --rosaClaro: #896787;
-  --verdeClaro: #90c677;
+body {
+  width: 100%;
+  background-color: #f0b7ed;
+  margin: 0;
+}
+
+.body-dark-mode {
+  background-color: #896787;
 }
 
 .header-dark-mode {
@@ -106,26 +109,11 @@ header .enlaces-cabecera__enlace-inicio, header .enlaces-cabecera__enlace-crear 
   box-shadow: 3px 3px 8px #0000003d;
 }
 
-* {
-  box-sizing: border-box;
-  color: #fff;
-}
-
-body {
-  width: 100%;
-  background-color: #f0b7ed;
-  margin: 0;
-}
-
-.body-dark-mode {
-  background-color: #896787;
-}
-
 .footer-dark-mode {
   background-color: #4e214c;
 }
 
-.footer-pag404 .footer-pag404__pie-pagina-pag404 .boton-dark-dark {
+.footer-pag404__pie-pagina-pag404 .boton-dark-dark, .pie-pagina .boton-dark-dark {
   background-color: #90c677;
 }
 
@@ -183,6 +171,10 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
 
 .section-principal__boton-generar .bot-img-dark-mode, .main-index .flujo-usuario .fieldset-dark-mode {
   background-color: #4e214c;
+}
+
+.main-index .flujo-usuario .boton-fieldset-dark-mode {
+  background-color: #90c677;
 }
 
 .section-principal {
@@ -264,7 +256,7 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
 .flujo-usuario .crear-cuenta__boton-crear-form {
   color: #000;
   width: 125px;
-  background-color: #90c677;
+  background-color: #b0f092;
   border-radius: 12px;
   margin-top: 40px;
   margin-left: auto;
@@ -297,7 +289,7 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
 .flujo-usuario .inicio-sesion__boton-inicio-form {
   color: #000;
   width: 125px;
-  background-color: #90c677;
+  background-color: #b0f092;
   border-radius: 12px;
   margin-top: 40px;
   margin-left: auto;

@@ -1,4 +1,10 @@
+// Dark mode
+.main-usuario .cuadro-usuario-dark-mode {
+    background-color: $rosaOscuro--dark;
+}
 
+
+// Estilos normales
 .main-usuario {
     display: flex;
     justify-content: center;

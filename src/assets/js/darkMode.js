@@ -42,6 +42,19 @@ function darkModeWiki(){
     darkModeHeader();
     darkModeFooter();
     darkModeBody();
+
+    var span1 = document.getElementById("span1");
+    span1.classList.toggle("span-dark-mode");
+    var span2 = document.getElementById("span2");
+    span2.classList.toggle("span-dark-mode");
+    var span3 = document.getElementById("span3");
+    span3.classList.toggle("span-dark-mode");
+    var span4 = document.getElementById("span4");
+    span4.classList.toggle("span-dark-mode");
+    var span5 = document.getElementById("span5");
+    span5.classList.toggle("span-dark-mode");
+    var span6 = document.getElementById("span6");
+    span6.classList.toggle("span-dark-mode");
 }
 
 function darkModeDescripcion(){
@@ -54,6 +67,9 @@ function darkModeContacto(){
     darkModeHeader();
     darkModeFooter();
     darkModeBody();
+
+    var formularioContacto = document.getElementById("formulario-contacto-dark-mode");
+    formularioContacto.classList.toggle("formulario-contacto-dark-mode");
 }
 
 function darkModePag404(){
@@ -66,4 +82,7 @@ function darkModeUsuario(){
     darkModeHeader();
     darkModeFooter();
     darkModeBody();
+
+    var usuario = document.getElementById("cuadro-usuario");
+    usuario.classList.toggle("cuadro-usuario-dark-mode");
 }

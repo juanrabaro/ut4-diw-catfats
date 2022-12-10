@@ -340,6 +340,10 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
   }
 }
 
+.main-wiki__item-grid a .span-dark-mode {
+  background-color: #4e214c;
+}
+
 .main-wiki {
   grid-template-rows: auto auto;
   grid-template-columns: auto auto auto;
@@ -463,6 +467,10 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
   }
 }
 
+body .main-contacto__contenido-contacto .formulario-contacto-dark-mode {
+  background-color: #4e214c;
+}
+
 .main-contacto__contenido-contacto {
   gap: 20px;
   margin: 100px 18px;
@@ -554,6 +562,10 @@ footer .pie-pagina__section-boton-dark-mode button, footer .footer-pag404__pie-p
   .main-contacto__contenido-contacto .contenido-contacto__formulario .formulario__fieldset-form {
     width: 94%;
   }
+}
+
+.main-usuario .cuadro-usuario-dark-mode {
+  background-color: #4e214c;
 }
 
 .main-usuario {

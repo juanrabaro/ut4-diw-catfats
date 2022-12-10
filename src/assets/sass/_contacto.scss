@@ -1,5 +1,10 @@
+// Dark mode
+body .main-contacto__contenido-contacto .formulario-contacto-dark-mode {
+    background-color: $rosaOscuro--dark;
+}
 
 
+// Estilos normales
 .main-contacto__contenido-contacto {
     display: flex;
     margin-left: 18px;

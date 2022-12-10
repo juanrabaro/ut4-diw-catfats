@@ -6,6 +6,8 @@
     .main-404__titulos {
         font-family: $fuenteTitulos;
         margin-left: 25%;
+        animation-name: bajada;
+        animation-duration: 2s;
 
         .titulos__h1 {
             font-size: 60px;
@@ -23,6 +25,8 @@
         font-family: $fuenteTexto;
         margin-left: 25%;
         font-size: 25px;
+        animation-name: bajada;
+        animation-duration: 2s;
 
         .parrafo__texto {
             color: black;
@@ -31,7 +35,14 @@
 }
 
 
-
+@keyframes bajada {
+    from {
+      margin-top: 100%;
+    }
+    to {
+      margin-top: 0%;
+    }
+}
 
 
 

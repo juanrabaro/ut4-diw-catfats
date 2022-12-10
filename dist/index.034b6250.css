@@ -659,6 +659,8 @@ body .main-contacto__contenido-contacto .formulario-contacto-dark-mode {
 .main-404 .main-404__titulos {
   margin-left: 25%;
   font-family: Fredoka One;
+  animation-name: bajada;
+  animation-duration: 2s;
 }
 
 .main-404 .main-404__titulos .titulos__h1 {
@@ -677,10 +679,22 @@ body .main-contacto__contenido-contacto .formulario-contacto-dark-mode {
   margin-left: 25%;
   font-family: Lato;
   font-size: 25px;
+  animation-name: bajada;
+  animation-duration: 2s;
 }
 
 .main-404 .main-404__parrafo .parrafo__texto {
   color: #000;
+}
+
+@keyframes bajada {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
 }
 
 @media screen and (max-width: 1025px) {

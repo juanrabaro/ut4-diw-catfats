@@ -25,6 +25,9 @@ footer {
             gap: 10px;
             align-items: center;
             font-family: $fuenteTexto;
+            a {
+                text-decoration: none;
+            }
             img {
                 width: 30px;
                 height: 30px;
@@ -35,6 +38,9 @@ footer {
             gap: 10px;
             align-items: center;
             font-family: $fuenteTexto;
+            a {
+                text-decoration: none;
+            }
             img {
                 width: 40px;
                 height: 30px;

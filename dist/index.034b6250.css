@@ -88,7 +88,7 @@ header .label-hamburguesa {
     padding: 25px 15px;
     display: none;
     position: absolute;
-    top: 70px;
+    top: 75px;
     right: 30px;
   }
 }
@@ -138,6 +138,10 @@ footer .pie-pagina__insta-footer, footer .footer-pag404__pie-pagina-pag404__inst
   display: flex;
 }
 
+footer .pie-pagina__insta-footer a, footer .footer-pag404__pie-pagina-pag404__insta-footer a {
+  text-decoration: none;
+}
+
 footer .pie-pagina__insta-footer img, footer .footer-pag404__pie-pagina-pag404__insta-footer img {
   width: 30px;
   height: 30px;
@@ -148,6 +152,10 @@ footer .pie-pagina__gmail-footer, footer .footer-pag404__pie-pagina-pag404__gmai
   gap: 10px;
   font-family: Lato;
   display: flex;
+}
+
+footer .pie-pagina__gmail-footer a, footer .footer-pag404__pie-pagina-pag404__gmail-footer a {
+  text-decoration: none;
 }
 
 footer .pie-pagina__gmail-footer img, footer .footer-pag404__pie-pagina-pag404__gmail-footer img {
